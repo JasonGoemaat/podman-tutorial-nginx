@@ -2,7 +2,7 @@
 
 Instructions: https://hub.docker.com/_/nginx
 
-## Finding
+## Get and pull default config
 
 Podman command `podman search nginx` returns a list, this
 is probably the one I want: `docker.io/library/nginx`
@@ -43,4 +43,41 @@ CONTAINER ID  IMAGE                           COMMAND               CREATED     
 64cf14140db4  docker.io/library/nginx:latest  nginx -g daemon o...  About a minute ago  Up About a minute  0.0.0.0:8080->80/tcp  nifty_hermann
 ```
 
+## Copying from container
+
+I can copy the default config it's running on by running this:
+
+    podman cp nifty_hermann:/etc/nginx/conf.d/default.conf ./configs/default.conf
+
+And the web server conf
+
+    podman cp nifty_hermann:/etc/nginx/nginx.conf ./configs/nginx.conf
+
+## my-nginx
+
+So it looks like `/etc/nginx/nginx.conf` contains the main configuration.
+It specifies to use the 'nginx' user, where to find mime types, logging,
+and specifies to include files in `/etc/nginx/conf.d` with this:
+
+    include /etc/nginx/conf.d/*.conf;
+
+So `my-nginx` contains just a custom config and index.html content.
+
+Build with:
+
+    podman build --tag my:my-nginx -f ./Dockerfile
+
+`podman images` shows it:
+
+```
+$ podman images
+REPOSITORY                TAG          IMAGE ID      CREATED         SIZE
+localhost/my              my-nginx     f4c2debc93e6  21 seconds ago  192 MB
+```
+
+Run with this, don't have to specify name I don't think, but 'my' from 'localhost/my' and tag my-nginx:
+
+    podman run -p 8100:80 --name my-nginx my:my-nginx
+
+Awesome, that worked and I can go to http://localhost:8100 and see my page.
 

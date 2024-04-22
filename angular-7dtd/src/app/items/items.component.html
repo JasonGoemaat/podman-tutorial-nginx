@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="top">
+    <form class="example-form">
+      <mat-form-field appearance="fill">
+        <mat-label>Filter</mat-label>
+        <input #filterInput matInput placeholder="Filter" name="filterString" [(ngModel)]="filterString"
+          (keyup)="onFilterStringKeyup($event)"
+          (click)="filterInput.select()">
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="content">
+    <div class="left">
+      <mat-card *ngFor="let item of items$ | async" (click)="selectItem(item)"
+        [ngClass]="{ 'selected': item === selectedItem }">{{item.text}}</mat-card>
+    </div>
+    <div class="right">
+      <mat-card class="selected-item">
+        <mat-card-title *ngIf="selectedItem">
+          {{selectedItem.text}}
+        </mat-card-title>
+        <mat-card-content *ngIf="selectedItem">
+          <!-- card for each group -->
+          <mat-card *ngFor="let group of selectedItem.groupedMods">
+            <mat-card-title>{{group.groupName}}</mat-card-title>
+            <mat-card-content>
+              <ul>
+                <li *ngFor="let text of group.modTexts">{{text}}</li>
+              </ul>
+            </mat-card-content>
+          </mat-card>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

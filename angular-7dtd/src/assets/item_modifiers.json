@@ -1,0 +1,1487 @@
+[
+  {
+    "name": "modGunBarrelExtender",
+    "text": "Barrel Extender Mod",
+    "installableTagsString": "barrelAttachments,turretRanged",
+    "installableTags": [
+      "barrelAttachments",
+      "turretRanged"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "barrelAttachment",
+    "modifierTags": [
+      "barrelAttachment"
+    ]
+  },
+  {
+    "name": "modGunMuzzleBrake",
+    "text": "Muzzle Brake Mod",
+    "installableTagsString": "barrelAttachments,turretRanged",
+    "installableTags": [
+      "barrelAttachments",
+      "turretRanged"
+    ],
+    "blockedTagsString": "noMods,shotgun",
+    "blockedTags": [
+      "noMods",
+      "shotgun"
+    ],
+    "modifierTagsString": "barrelAttachment",
+    "modifierTags": [
+      "barrelAttachment"
+    ]
+  },
+  {
+    "name": "modGunSoundSuppressorSilencer",
+    "text": "Silencer Mod",
+    "installableTagsString": "gun",
+    "installableTags": [
+      "gun"
+    ],
+    "blockedTagsString": "noMods,noSilencer",
+    "blockedTags": [
+      "noMods",
+      "noSilencer"
+    ],
+    "modifierTagsString": "barrelAttachment",
+    "modifierTags": [
+      "barrelAttachment"
+    ]
+  },
+  {
+    "name": "modGunLaserSight",
+    "text": "Laser Sight Mod",
+    "installableTagsString": "sideAttachments",
+    "installableTags": [
+      "sideAttachments"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "sideAttachment",
+    "modifierTags": [
+      "sideAttachment"
+    ]
+  },
+  {
+    "name": "modGunFlashlight",
+    "text": "Weapon Flashlight Mod",
+    "installableTagsString": "sideAttachments,turretMelee",
+    "installableTags": [
+      "sideAttachments",
+      "turretMelee"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "sideAttachment",
+    "modifierTags": [
+      "sideAttachment"
+    ]
+  },
+  {
+    "name": "modGunScopeSmall",
+    "text": "Scope 2x Mod",
+    "installableTagsString": "smallTopAttachments",
+    "installableTags": [
+      "smallTopAttachments"
+    ],
+    "blockedTagsString": "noMods,noScopes",
+    "blockedTags": [
+      "noMods",
+      "noScopes"
+    ],
+    "modifierTagsString": "scope",
+    "modifierTags": [
+      "scope"
+    ]
+  },
+  {
+    "name": "modGunScopeMedium",
+    "text": "Scope 4x Mod",
+    "installableTagsString": "mediumTopAttachments",
+    "installableTags": [
+      "mediumTopAttachments"
+    ],
+    "blockedTagsString": "noMods,noScopes,shotguns",
+    "blockedTags": [
+      "noMods",
+      "noScopes",
+      "shotguns"
+    ],
+    "modifierTagsString": "scope",
+    "modifierTags": [
+      "scope"
+    ]
+  },
+  {
+    "name": "modGunScopeLarge",
+    "text": "Scope 8x Mod",
+    "installableTagsString": "largeTopAttachments",
+    "installableTags": [
+      "largeTopAttachments"
+    ],
+    "blockedTagsString": "noMods,noScopes,shotguns",
+    "blockedTags": [
+      "noMods",
+      "noScopes",
+      "shotguns"
+    ],
+    "modifierTagsString": "scope",
+    "modifierTags": [
+      "scope"
+    ]
+  },
+  {
+    "name": "modGunReflexSight",
+    "text": "Reflex Sight Mod",
+    "installableTagsString": "smallTopAttachments",
+    "installableTags": [
+      "smallTopAttachments"
+    ],
+    "blockedTagsString": "noMods,bow",
+    "blockedTags": [
+      "noMods",
+      "bow"
+    ],
+    "modifierTagsString": "scope",
+    "modifierTags": [
+      "scope"
+    ]
+  },
+  {
+    "name": "modGunTriggerGroupSemi",
+    "text": "Trigger Group: Semi Mod",
+    "installableTagsString": "firingMode",
+    "installableTags": [
+      "firingMode"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "trigger",
+    "modifierTags": [
+      "trigger"
+    ]
+  },
+  {
+    "name": "modGunTriggerGroupBurst3",
+    "text": "Trigger Group: Burst Mod",
+    "installableTagsString": "firingMode,turretRanged",
+    "installableTags": [
+      "firingMode",
+      "turretRanged"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "trigger",
+    "modifierTags": [
+      "trigger"
+    ]
+  },
+  {
+    "name": "modGunTriggerGroupAutomatic",
+    "text": "Trigger Group: Full Auto Mod",
+    "installableTagsString": "firingMode,turretRanged",
+    "installableTags": [
+      "firingMode",
+      "turretRanged"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "trigger",
+    "modifierTags": [
+      "trigger"
+    ]
+  },
+  {
+    "name": "modGunBipod",
+    "text": "Bipod Mod",
+    "installableTagsString": "bottomAttachments",
+    "installableTags": [
+      "bottomAttachments"
+    ],
+    "blockedTagsString": "noMods,shortRange",
+    "blockedTags": [
+      "noMods",
+      "shortRange"
+    ],
+    "modifierTagsString": "accuracy",
+    "modifierTags": [
+      "accuracy"
+    ]
+  },
+  {
+    "name": "modGunForegrip",
+    "text": "Fore Grip Mod",
+    "installableTagsString": "bottomAttachments,turretRanged",
+    "installableTags": [
+      "bottomAttachments",
+      "turretRanged"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "grips",
+    "modifierTags": [
+      "grips"
+    ]
+  },
+  {
+    "name": "modGunRetractingStock",
+    "text": "Retracting Stock Mod",
+    "installableTagsString": "stock",
+    "installableTags": [
+      "stock"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "stocks",
+    "modifierTags": [
+      "stocks"
+    ]
+  },
+  {
+    "name": "modShotgunSawedOffBarrel",
+    "text": "Sawed-Off Shotgun Mod",
+    "installableTagsString": "shotgun",
+    "installableTags": [
+      "shotgun"
+    ],
+    "blockedTagsString": "noMods,dBarrel",
+    "blockedTags": [
+      "noMods",
+      "dBarrel"
+    ],
+    "modifierTagsString": "barrelAttachment",
+    "modifierTags": [
+      "barrelAttachment"
+    ]
+  },
+  {
+    "name": "modGunDuckbill",
+    "text": "Shotgun Duckbill Mod",
+    "installableTagsString": "shotgun,turretRanged",
+    "installableTags": [
+      "shotgun",
+      "turretRanged"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "barrelAttachment",
+    "modifierTags": [
+      "barrelAttachment"
+    ]
+  },
+  {
+    "name": "modGunChoke",
+    "text": "Shotgun Choke Mod",
+    "installableTagsString": "shotgun,turretRanged",
+    "installableTags": [
+      "shotgun",
+      "turretRanged"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "barrelAttachment",
+    "modifierTags": [
+      "barrelAttachment"
+    ]
+  },
+  {
+    "name": "modGunMagazineExtender",
+    "text": "Magazine Extender Mod",
+    "installableTagsString": "magazine,turretRanged",
+    "installableTags": [
+      "magazine",
+      "turretRanged"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "magazine",
+    "modifierTags": [
+      "magazine"
+    ]
+  },
+  {
+    "name": "modGunDrumMagazineExtender",
+    "text": "Drum Magazine Mod",
+    "installableTagsString": "drumMagazine",
+    "installableTags": [
+      "drumMagazine"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "magazine",
+    "modifierTags": [
+      "magazine"
+    ]
+  },
+  {
+    "name": "modGunShotgunTubeExtenderMagazine",
+    "text": "Shotgun Tube Extender Mod",
+    "installableTagsString": "modGunShotgunTubeExtenderMagazine",
+    "installableTags": [
+      "modGunShotgunTubeExtenderMagazine"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "magazine",
+    "modifierTags": [
+      "magazine"
+    ]
+  },
+  {
+    "name": "modGunButtkick3000",
+    "text": "Buttkick 3000 Mod",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "",
+    "modifierTags": [
+      ""
+    ]
+  },
+  {
+    "name": "modGunButtkick4000",
+    "text": "Buttkick 4000 Mod - Perks",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "",
+    "modifierTags": [
+      ""
+    ]
+  },
+  {
+    "name": "modMeleeGunToolDecapitizer",
+    "text": "The Decapitizer",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "",
+    "modifierTags": [
+      ""
+    ]
+  },
+  {
+    "name": "modGunCrippleEm",
+    "text": "Cripple 'Em Mod",
+    "installableTagsString": "ranged",
+    "installableTags": [
+      "ranged"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "crippling",
+    "modifierTags": [
+      "crippling"
+    ]
+  },
+  {
+    "name": "modGunBowPolymerString",
+    "text": "Polymer String Mod",
+    "installableTagsString": "perkArchery",
+    "installableTags": [
+      "perkArchery"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "velocity",
+    "modifierTags": [
+      "velocity"
+    ]
+  },
+  {
+    "name": "modGunBowArrowRest",
+    "text": "Arrow Rest Mod",
+    "installableTagsString": "bow",
+    "installableTags": [
+      "bow"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "accuracy",
+    "modifierTags": [
+      "accuracy"
+    ]
+  },
+  {
+    "name": "modGunMeleeTheHunter",
+    "text": "The Hunter Mod",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "specialDamage",
+    "modifierTags": [
+      "specialDamage"
+    ]
+  },
+  {
+    "name": "modGunMeleeRadRemover",
+    "text": "Rad Remover Mod",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "specialDamage",
+    "modifierTags": [
+      "specialDamage"
+    ]
+  },
+  {
+    "name": "modGunMeleeBlessedMetal",
+    "text": "Blessed Metal Mod",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "specialDamage",
+    "modifierTags": [
+      "specialDamage"
+    ]
+  },
+  {
+    "name": "modGunMeleeNiCdBattery",
+    "text": "NiCd Battery Mod",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "specialDamage",
+    "modifierTags": [
+      "specialDamage"
+    ]
+  },
+  {
+    "name": "modGunMeleeFlammableOil",
+    "text": "Flammable Oil Mod",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "specialDamage",
+    "modifierTags": [
+      "specialDamage"
+    ]
+  },
+  {
+    "name": "modGunMeleeLiquidNitrogen",
+    "text": "Liquid Nitrogen Mod",
+    "installableTagsString": "weapon,tool",
+    "installableTags": [
+      "weapon",
+      "tool"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "specialDamage",
+    "modifierTags": [
+      "specialDamage"
+    ]
+  },
+  {
+    "name": "modMeleeTemperedBlade",
+    "text": "Tempered Blade Mod",
+    "installableTagsString": "perkDeepCuts,axe,shovel,perkBrawler,perkJavelinMaster",
+    "installableTags": [
+      "perkDeepCuts",
+      "axe",
+      "shovel",
+      "perkBrawler",
+      "perkJavelinMaster"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "damage",
+    "modifierTags": [
+      "damage"
+    ]
+  },
+  {
+    "name": "modMeleeSerratedBlade",
+    "text": "Serrated Blade Mod",
+    "installableTagsString": "knife,machete,axe,shovel,perkBrawler,perkJavelinMaster",
+    "installableTags": [
+      "knife",
+      "machete",
+      "axe",
+      "shovel",
+      "perkBrawler",
+      "perkJavelinMaster"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "damage",
+    "modifierTags": [
+      "damage"
+    ]
+  },
+  {
+    "name": "modMeleeWeightedHead",
+    "text": "Weighted Head Mod",
+    "installableTagsString": "light,medium,heavy,turretMelee",
+    "installableTags": [
+      "light",
+      "medium",
+      "heavy",
+      "turretMelee"
+    ],
+    "blockedTagsString": "noMods,perkDeepCuts",
+    "blockedTags": [
+      "noMods",
+      "perkDeepCuts"
+    ],
+    "modifierTagsString": "damage",
+    "modifierTags": [
+      "damage"
+    ]
+  },
+  {
+    "name": "modMeleeStructuralBrace",
+    "text": "Structural Brace Mod",
+    "installableTagsString": "melee,perkArchery",
+    "installableTags": [
+      "melee",
+      "perkArchery"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "durability",
+    "modifierTags": [
+      "durability"
+    ]
+  },
+  {
+    "name": "modMeleeErgonomicGrip",
+    "text": "Ergonomic Grip Mod",
+    "installableTagsString": "melee,bow",
+    "installableTags": [
+      "melee",
+      "bow"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "health",
+    "modifierTags": [
+      "health"
+    ]
+  },
+  {
+    "name": "modMeleeFortifyingGrip",
+    "text": "Fortifying Grip Mod",
+    "installableTagsString": "melee",
+    "installableTags": [
+      "melee"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "health",
+    "modifierTags": [
+      "health"
+    ]
+  },
+  {
+    "name": "modMeleeClubBarbedWire",
+    "text": "Barbed Wire Mod",
+    "installableTagsString": "club",
+    "installableTags": [
+      "club"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "shaft",
+    "modifierTags": [
+      "shaft"
+    ]
+  },
+  {
+    "name": "modMeleeClubMetalSpikes",
+    "text": "Metal Spikes Mod",
+    "installableTagsString": "club",
+    "installableTags": [
+      "club"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "shaft",
+    "modifierTags": [
+      "shaft"
+    ]
+  },
+  {
+    "name": "modMeleeClubMetalChain",
+    "text": "Metal Chain Mod",
+    "installableTagsString": "club",
+    "installableTags": [
+      "club"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "shaft",
+    "modifierTags": [
+      "shaft"
+    ]
+  },
+  {
+    "name": "modMeleeClubBurningShaft",
+    "text": "Burning Shaft Mod",
+    "installableTagsString": "longShaft",
+    "installableTags": [
+      "longShaft"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "fire",
+    "modifierTags": [
+      "fire"
+    ]
+  },
+  {
+    "name": "modMeleeFiremansAxeMod",
+    "text": "Fireman's Axe Mod",
+    "installableTagsString": "axe",
+    "installableTags": [
+      "axe"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "damageDirt,damageStone,damageIron",
+    "modifierTags": [
+      "damageDirt",
+      "damageStone",
+      "damageIron"
+    ]
+  },
+  {
+    "name": "modMeleeGraveDigger",
+    "text": "Grave Digger Mod",
+    "installableTagsString": "melee",
+    "installableTags": [
+      "melee"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "damageDirt",
+    "modifierTags": [
+      "damageDirt"
+    ]
+  },
+  {
+    "name": "modMeleeBunkerBuster",
+    "text": "Bunker Buster Mod",
+    "installableTagsString": "melee",
+    "installableTags": [
+      "melee"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "damageStone",
+    "modifierTags": [
+      "damageStone"
+    ]
+  },
+  {
+    "name": "modMeleeIronBreaker",
+    "text": "Iron Breaker Mod",
+    "installableTagsString": "melee",
+    "installableTags": [
+      "melee"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "damageIron",
+    "modifierTags": [
+      "damageIron"
+    ]
+  },
+  {
+    "name": "modMeleeWoodSplitter",
+    "text": "Wood Splitter Mod",
+    "installableTagsString": "melee",
+    "installableTags": [
+      "melee"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "damageWood",
+    "modifierTags": [
+      "damageWood"
+    ]
+  },
+  {
+    "name": "modMeleeDiamondTip",
+    "text": "Diamond Blade Tip Mod",
+    "installableTagsString": "tool,perkBrawler,perkJavelinMaster,perkDeepCuts",
+    "installableTags": [
+      "tool",
+      "perkBrawler",
+      "perkJavelinMaster",
+      "perkDeepCuts"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "durability",
+    "modifierTags": [
+      "durability"
+    ]
+  },
+  {
+    "name": "modMeleeStunBatonRepulsor",
+    "text": "Stun Baton Repulsor Mod",
+    "installableTagsString": "perkElectrocutioner",
+    "installableTags": [
+      "perkElectrocutioner"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "knockback",
+    "modifierTags": [
+      "knockback"
+    ]
+  },
+  {
+    "name": "modFuelTankSmall",
+    "text": "Motor Tool Small Tank Mod",
+    "installableTagsString": "motorTool",
+    "installableTags": [
+      "motorTool"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "fuel",
+    "modifierTags": [
+      "fuel"
+    ]
+  },
+  {
+    "name": "modFuelTankLarge",
+    "text": "Motor Tool Large Tank Mod",
+    "installableTagsString": "motorTool",
+    "installableTags": [
+      "motorTool"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "fuel",
+    "modifierTags": [
+      "fuel"
+    ]
+  },
+  {
+    "name": "modArmorBandolier",
+    "text": "Bandolier Mod",
+    "installableTagsString": "armorChest,armorLegs",
+    "installableTags": [
+      "armorChest",
+      "armorLegs"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "ammo",
+    "modifierTags": [
+      "ammo"
+    ]
+  },
+  {
+    "name": "modRadiationReady",
+    "text": "Radiation Ready Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "resistance",
+    "modifierTags": [
+      "resistance"
+    ]
+  },
+  {
+    "name": "modArmorInsulatedLiner",
+    "text": "Insulated Liner Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "thermal",
+    "modifierTags": [
+      "thermal"
+    ]
+  },
+  {
+    "name": "modArmorCoolingMesh",
+    "text": "Cooling Mesh Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "temperature",
+    "modifierTags": [
+      "temperature"
+    ]
+  },
+  {
+    "name": "modArmorImprovedFittings",
+    "text": "Improved Fittings Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods,padded",
+    "blockedTags": [
+      "noMods",
+      "padded"
+    ],
+    "modifierTagsString": "movement",
+    "modifierTags": [
+      "movement"
+    ]
+  },
+  {
+    "name": "modArmorCustomizedFittings",
+    "text": "Customized Fittings Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods,padded",
+    "blockedTags": [
+      "noMods",
+      "padded"
+    ],
+    "modifierTagsString": "movement",
+    "modifierTags": [
+      "movement"
+    ]
+  },
+  {
+    "name": "modArmorPlatingBasic",
+    "text": "Armor Plating Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "resistance",
+    "modifierTags": [
+      "resistance"
+    ]
+  },
+  {
+    "name": "modArmorPlatingReinforced",
+    "text": "Banded Armor Plating Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "resistance",
+    "modifierTags": [
+      "resistance"
+    ]
+  },
+  {
+    "name": "modArmorStoragePocket",
+    "text": "Armor Pocket Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "carryweight",
+    "modifierTags": [
+      "carryweight"
+    ]
+  },
+  {
+    "name": "modArmorDoubleStoragePocket",
+    "text": "Armor Double Pocket Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "carryweight",
+    "modifierTags": [
+      "carryweight"
+    ]
+  },
+  {
+    "name": "modArmorTripleStoragePocket",
+    "text": "Armor Triple Pocket Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "carryweight",
+    "modifierTags": [
+      "carryweight"
+    ]
+  },
+  {
+    "name": "modArmorMuffledConnectors",
+    "text": "Muffled Connectors Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "stealth",
+    "modifierTags": [
+      "stealth"
+    ]
+  },
+  {
+    "name": "modArmorAdvancedMuffledConnectors",
+    "text": "Advanced Muffled Connectors Mod",
+    "installableTagsString": "armor",
+    "installableTags": [
+      "armor"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "stealth",
+    "modifierTags": [
+      "stealth"
+    ]
+  },
+  {
+    "name": "modArmorImpactBracing",
+    "text": "Impact Bracing Mod",
+    "installableTagsString": "armorFeet",
+    "installableTags": [
+      "armorFeet"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "falldamage",
+    "modifierTags": [
+      "falldamage"
+    ]
+  },
+  {
+    "name": "modArmorWaterPurifier",
+    "text": "Water Purifier Mod",
+    "installableTagsString": "armorHead",
+    "installableTags": [
+      "armorHead"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "waterPurifier",
+    "modifierTags": [
+      "waterPurifier"
+    ]
+  },
+  {
+    "name": "modArmorJumpJets",
+    "text": "Jump Jets Mod",
+    "installableTagsString": "armorChest",
+    "installableTags": [
+      "armorChest"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "misc",
+    "modifierTags": [
+      "misc"
+    ]
+  },
+  {
+    "name": "modArmorHelmetLight",
+    "text": "Helmet Light Mod",
+    "installableTagsString": "head",
+    "installableTags": [
+      "head"
+    ],
+    "blockedTagsString": "noMods,clothing",
+    "blockedTags": [
+      "noMods",
+      "clothing"
+    ],
+    "modifierTagsString": "misc,modArmorHelmetLight",
+    "modifierTags": [
+      "misc",
+      "modArmorHelmetLight"
+    ]
+  },
+  {
+    "name": "modClothingStoragePocket",
+    "text": "Clothing Pocket Mod",
+    "installableTagsString": "pocketMod",
+    "installableTags": [
+      "pocketMod"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "carryweight",
+    "modifierTags": [
+      "carryweight"
+    ]
+  },
+  {
+    "name": "modClothingCargoStoragePocket",
+    "text": "Clothing Double Pocket Mod",
+    "installableTagsString": "pocketMod",
+    "installableTags": [
+      "pocketMod"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "carryweight",
+    "modifierTags": [
+      "carryweight"
+    ]
+  },
+  {
+    "name": "modDyeWhite",
+    "text": "Dye: Solvent",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modDyeRed",
+    "text": "Dye: Red",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modDyeGreen",
+    "text": "Dye: Green",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modDyeBlack",
+    "text": "Dye: Black",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modDyeBlue",
+    "text": "Dye: Blue",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modDyeBrown",
+    "text": "Dye: Brown",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modDyePink",
+    "text": "Dye: Pink",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modDyePurple",
+    "text": "Dye: Purple",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modDyeYellow",
+    "text": "Dye: Yellow",
+    "installableTagsString": "clothing,armor,weapon,tool,vehicle",
+    "installableTags": [
+      "clothing",
+      "armor",
+      "weapon",
+      "tool",
+      "vehicle"
+    ],
+    "blockedTags": [],
+    "modifierTagsString": "dye",
+    "modifierTags": [
+      "dye"
+    ]
+  },
+  {
+    "name": "modVehicleMega",
+    "text": "Vehicle Mega Mod",
+    "installableTagsString": "vehicle",
+    "installableTags": [
+      "vehicle"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "test",
+    "modifierTags": [
+      "test"
+    ]
+  },
+  {
+    "name": "modVehicleFuelSaver",
+    "text": "Vehicle Fuel Saver Mod",
+    "installableTagsString": "vehicle",
+    "installableTags": [
+      "vehicle"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "fuel",
+    "modifierTags": [
+      "fuel"
+    ]
+  },
+  {
+    "name": "modVehicleHeadlights",
+    "text": "Vehicle Headlights Mod",
+    "installableTagsString": "vehicle",
+    "installableTags": [
+      "vehicle"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "light",
+    "modifierTags": [
+      "light"
+    ]
+  },
+  {
+    "name": "modVehicleSpeed",
+    "text": "Vehicle Speed Mod",
+    "installableTagsString": "vehicle",
+    "installableTags": [
+      "vehicle"
+    ],
+    "blockedTagsString": "noMods",
+    "blockedTags": [
+      "noMods"
+    ],
+    "modifierTagsString": "speed",
+    "modifierTags": [
+      "speed"
+    ]
+  },
+  {
+    "name": "modArmorCowboyHat",
+    "text": "Cowboy Hat Mod",
+    "installableTagsString": "head",
+    "installableTags": [
+      "head"
+    ],
+    "blockedTagsString": "noMods,clothing",
+    "blockedTags": [
+      "noMods",
+      "clothing"
+    ],
+    "modifierTagsString": "rare",
+    "modifierTags": [
+      "rare"
+    ]
+  },
+  {
+    "name": "modArmorSkullCap",
+    "text": "Skull Cap Mod",
+    "installableTagsString": "head",
+    "installableTags": [
+      "head"
+    ],
+    "blockedTagsString": "noMods,clothing",
+    "blockedTags": [
+      "noMods",
+      "clothing"
+    ],
+    "modifierTagsString": "rare",
+    "modifierTags": [
+      "rare"
+    ]
+  },
+  {
+    "name": "modArmorPressboyCap",
+    "text": "Press Boy Cap Mod",
+    "installableTagsString": "head",
+    "installableTags": [
+      "head"
+    ],
+    "blockedTagsString": "noMods,clothing",
+    "blockedTags": [
+      "noMods",
+      "clothing"
+    ],
+    "modifierTagsString": "rare",
+    "modifierTags": [
+      "rare"
+    ]
+  },
+  {
+    "name": "modArmorBallCap",
+    "text": "Ball Cap Mod",
+    "installableTagsString": "head",
+    "installableTags": [
+      "head"
+    ],
+    "blockedTagsString": "noMods,clothing",
+    "blockedTags": [
+      "noMods",
+      "clothing"
+    ],
+    "modifierTagsString": "rare",
+    "modifierTags": [
+      "rare"
+    ]
+  },
+  {
+    "name": "questWhiteRiverSupplies",
+    "text": "White River Supplies",
+    "installableTags": [],
+    "blockedTags": [],
+    "modifierTagsString": "",
+    "modifierTags": [
+      ""
+    ]
+  },
+  {
+    "name": "questCassadoreSupplies",
+    "text": "Cassadore Supplies",
+    "installableTags": [],
+    "blockedTags": [],
+    "modifierTagsString": "",
+    "modifierTags": [
+      ""
+    ]
+  }
+]

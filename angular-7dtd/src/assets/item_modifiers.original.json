@@ -1,0 +1,7423 @@
+{
+	"item_modifiers": {
+		"item_modifier": [
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunBarrelExtenderSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "DamageFalloffRange",
+							"_operation": "perc_add",
+							"_value": ".2"
+						},
+						{
+							"_name": "MaxRange",
+							"_operation": "perc_add",
+							"_value": ".2"
+						},
+						{
+							"_name": "SpreadMultiplierHip",
+							"_operation": "perc_add",
+							"_value": ".1"
+						},
+						{
+							"_name": "SpreadMultiplierAiming",
+							"_operation": "perc_add",
+							"_value": "-.05"
+						},
+						{
+							"requirement": {
+								"_name": "ItemHasTags",
+								"_tags": "perkDeadEye,crossbow"
+							},
+							"_name": "SpreadMultiplierAiming",
+							"_operation": "perc_add",
+							"_value": "-.05"
+						},
+						{
+							"_name": "KickDegreesVerticalMin",
+							"_operation": "perc_add",
+							"_value": ".1"
+						},
+						{
+							"_name": "KickDegreesVerticalMax",
+							"_operation": "perc_add",
+							"_value": ".1"
+						},
+						{
+							"_name": "KickDegreesHorizontalMin",
+							"_operation": "perc_add",
+							"_value": ".05"
+						},
+						{
+							"_name": "KickDegreesHorizontalMax",
+							"_operation": "perc_add",
+							"_value": ".05"
+						},
+						{
+							"requirement": {
+								"_name": "NotHasBuff",
+								"_buff": "buffHoldBreathAiming01"
+							},
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": "-.08"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunBarrelExtender",
+				"_installable_tags": "barrelAttachments,turretRanged",
+				"_modifier_tags": "barrelAttachment",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunMuzzleBrakeSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "KickDegreesVerticalMin",
+							"_operation": "perc_add",
+							"_value": "-.25"
+						},
+						{
+							"_name": "KickDegreesVerticalMax",
+							"_operation": "perc_add",
+							"_value": "-.25"
+						},
+						{
+							"_name": "KickDegreesHorizontalMin",
+							"_operation": "perc_add",
+							"_value": "-.15"
+						},
+						{
+							"_name": "KickDegreesHorizontalMax",
+							"_operation": "perc_add",
+							"_value": "-.15"
+						},
+						{
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": ".08"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunMuzzleBrake",
+				"_installable_tags": "barrelAttachments,turretRanged",
+				"_modifier_tags": "barrelAttachment",
+				"_blocked_tags": "noMods,shotgun",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunSoundSuppressorSilencerSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "pistol_s_fire"
+							},
+							{
+								"_name": "Sound_end",
+								"_value": ""
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "pistol_s_fire"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "pistol_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,-.006,.127"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunHandgunT1Pistol"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "mp5_s_fire"
+							},
+							{
+								"_name": "Sound_end",
+								"_value": "silencefiller"
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "mp5_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,0,0"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunHandgunT3SMG5"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "pump_shotgun_s_fire"
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "pump_shotgun_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,0,0"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunHandgunT3DesertVulture"
+					},
+					{
+						"property": {
+							"_name": "Sound_start",
+							"_value": "pump_shotgun_s_fire"
+						},
+						"_name": "gunShotgunT1DoubleBarrel"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "pump_shotgun_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,-.0322,.4516"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": "1.1,1.1,1.5"
+							}
+						],
+						"_name": "gunShotgunT2PumpShotgun"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "pump_shotgun_s_fire"
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "pump_shotgun_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,-.0322,.4516"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": "1.1,1.1,1.5"
+							}
+						],
+						"_name": "gunShotgunT3AutoShotgun"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "hunting_rifle_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,-.009,.551"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunRifleT1HuntingRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "sniperrifle_s_fire"
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "sniperrifle_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,-.02,.2182"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": ".88,.88,.88"
+							}
+						],
+						"_name": "gunRifleT2MarksmanRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "sniperrifle_s_fire"
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "sniperrifle_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,-.02,.2182"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": ".88,.88,.88"
+							}
+						],
+						"_name": "gunRifleT3SniperRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "ak47_s_fire"
+							},
+							{
+								"_name": "Sound_end",
+								"_value": "silencefiller"
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "ak47_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "-.001,-.0197,.3197"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunMGT1AK47"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "ak47_s_fire"
+							},
+							{
+								"_name": "Sound_end",
+								"_value": "silencefiller"
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "ak47_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,.005,.275"
+							},
+							{
+								"_name": "BarrelScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunMGT2TacticalAR"
+					},
+					{
+						"property": [
+							{
+								"_name": "Sound_start",
+								"_value": "m60_s_fire"
+							},
+							{
+								"_name": "Sound_end",
+								"_value": "silencefiller"
+							},
+							{
+								"_name": "Sound_loop",
+								"_value": "m60_s_fire"
+							},
+							{
+								"_name": "BarrelOffset",
+								"_value": "0,-.005,.31"
+							}
+						],
+						"_name": "gunMGT3M60"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": [
+							{
+								"_name": "!HoldingItemHasTags",
+								"_tags": "dBarrel"
+							},
+							{
+								"_name": "!HoldingItemHasTags",
+								"_tags": "attachmentsIncluded"
+							}
+						],
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "AttachPrefabToHeldItem",
+							"_prefab": "#Other/Items?Mods/Barrels/SilencerPrefab.prefab",
+							"_parent_transform": "Attachments/Barrel"
+						},
+						"_tiered": "false",
+						"_name": "external attachment prefab (old way)"
+					},
+					{
+						"requirement": {
+							"_name": "HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "SetTransformActive",
+							"_active": "true",
+							"_parent_transform": "#HeldItemRoot",
+							"_transform_path": "silencer"
+						},
+						"_tiered": "false",
+						"_name": "internal attachment prefab (A19)"
+					},
+					{
+						"passive_effect": [
+							{
+								"requirement": {
+									"_name": "ProgressionLevel",
+									"_progression_name": "perkUrbanCombatComplete",
+									"_operation": "LT",
+									"_value": "1"
+								},
+								"_name": "EntityDamage",
+								"_operation": "perc_add",
+								"_value": "-.15"
+							},
+							{
+								"_name": "DamageFalloffRange",
+								"_operation": "perc_add",
+								"_value": "-.2"
+							},
+							{
+								"_name": "MaxRange",
+								"_operation": "perc_add",
+								"_value": "-.25"
+							}
+						],
+						"_tiered": "false",
+						"_name": "mod effects"
+					}
+				],
+				"_name": "modGunSoundSuppressorSilencer",
+				"_installable_tags": "gun",
+				"_modifier_tags": "barrelAttachment",
+				"_blocked_tags": "noMods,noSilencer",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunLaserSightSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": {
+							"_name": "CrosshairOnAim",
+							"_value": "true"
+						},
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,.0148,.0479"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunHandgunT1Pistol"
+					},
+					{
+						"property": {
+							"_name": "SideOffset",
+							"_value": "0,-.026,.27"
+						},
+						"_name": "gunShotgunT0Blunderbuss"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,0,.41"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1.12,1.12,1.12"
+							}
+						],
+						"_name": "gunShotgunT2PumpShotgun"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,-.055,.07"
+							},
+							{
+								"_name": "SideScale",
+								"_value": ".4,.4,.4"
+							}
+						],
+						"_name": "gunShotgunT1DoubleBarrel"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,0,.31"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunMGT1AK47"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,0.021,0.258"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunMGT2TacticalAR"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "-.0386,.0382,.3735"
+							},
+							{
+								"_name": "SideRotation",
+								"_value": "0,0,-90"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunMGT3M60"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,.065,.14"
+							},
+							{
+								"_name": "SideScale",
+								"_value": ".75,.75,.75"
+							}
+						],
+						"_name": "gunHandgunT2Magnum44"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,.0108,.0148"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1.25,1.25,1.25"
+							}
+						],
+						"_name": "gunHandgunT3SMG5"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,.003,.1674"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunRifleT2MarksmanRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": ".037,-.1,.19"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "SideRotation",
+								"_value": "0,0,20"
+							}
+						],
+						"_name": "gunExplosivesT3RocketLauncher"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,-.038,.32"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "SideRotation",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunBowT1IronCrossbow"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,0,.32"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunBowT3CompoundCrossbow"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "!HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfHoldingItemCreated",
+								"_action": "AttachPrefabToHeldItem",
+								"_prefab": "#Other/Items?Mods/Sides/side_attachment_laserPrefab.prefab",
+								"_parent_transform": "Attachments/Side",
+								"_local_rotation": "0,0,0"
+							},
+							{
+								"_trigger": "onSelfItemActivate",
+								"_action": "SetTransformChildrenActive",
+								"_active": "true",
+								"_parent_transform": "Side",
+								"_transform_path": "gun_laser"
+							},
+							{
+								"_trigger": "onSelfItemDeactivate",
+								"_action": "SetTransformChildrenActive",
+								"_active": "false",
+								"_parent_transform": "Side",
+								"_transform_path": "gun_laser"
+							},
+							{
+								"_trigger": "onSelfEquipStop",
+								"_action": "SetTransformChildrenActive",
+								"_active": "false",
+								"_parent_transform": "Side",
+								"_transform_path": "gun_laser"
+							}
+						],
+						"_tiered": "false",
+						"_name": "external attachment prefab (old way)"
+					},
+					{
+						"requirement": {
+							"_name": "HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfHoldingItemCreated",
+								"_action": "SetTransformActive",
+								"_active": "true",
+								"_parent_transform": "#HeldItemRoot",
+								"_transform_path": "gunlaser"
+							},
+							{
+								"_trigger": "onSelfItemActivate",
+								"_action": "SetTransformActive",
+								"_active": "true",
+								"_parent_transform": "gunlaser",
+								"_transform_path": "gunlaser"
+							},
+							{
+								"_trigger": "onSelfItemDeactivate",
+								"_action": "SetTransformActive",
+								"_active": "false",
+								"_parent_transform": "gunlaser",
+								"_transform_path": "gunlaser"
+							},
+							{
+								"_trigger": "onSelfEquipStop",
+								"_action": "SetTransformActive",
+								"_active": "false",
+								"_parent_transform": "gunlaser",
+								"_transform_path": "gunlaser"
+							}
+						],
+						"_tiered": "false",
+						"_name": "internal attachment prefab (A19)"
+					},
+					{
+						"passive_effect": [
+							{
+								"_name": "SpreadMultiplierHip",
+								"_operation": "perc_add",
+								"_value": "-.2"
+							},
+							{
+								"_name": "WeaponHandling",
+								"_operation": "perc_add",
+								"_value": ".2"
+							}
+						],
+						"_tiered": "false",
+						"_name": "mod effects"
+					}
+				],
+				"_name": "modGunLaserSight",
+				"_installable_tags": "sideAttachments",
+				"_modifier_tags": "sideAttachment",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunFlashlightSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "LightValue",
+						"_value": ".7"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,.0198,.0475"
+							},
+							{
+								"_name": "SideScale",
+								"_value": ".75,.75,.75"
+							}
+						],
+						"_name": "gunHandgunT1Pistol"
+					},
+					{
+						"property": {
+							"_name": "SideOffset",
+							"_value": "0,-.026,.27"
+						},
+						"_name": "gunShotgunT0Blunderbuss"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,-.03,.066"
+							},
+							{
+								"_name": "SideScale",
+								"_value": ".4,.4,.4"
+							}
+						],
+						"_name": "gunShotgunT1DoubleBarrel"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,0,.41"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1.12,1.12,1.12"
+							}
+						],
+						"_name": "gunShotgunT2PumpShotgun"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,0,.28"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunMGT1AK47"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,0.0,0.23"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunMGT2TacticalAR"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "-.0386,.0382,.3519"
+							},
+							{
+								"_name": "SideRotation",
+								"_value": "0,0,-90"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunMGT3M60"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,.0621,.095"
+							},
+							{
+								"_name": "SideScale",
+								"_value": ".75,.75,.75"
+							}
+						],
+						"_name": "gunHandgunT2Magnum44"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,.0065,0"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1.5,1.5,1.5"
+							}
+						],
+						"_name": "gunHandgunT3SMG5"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,.0061,.2455"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunRifleT1HuntingRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,-.0025,.175"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1.12,1.12,1.12"
+							}
+						],
+						"_name": "gunRifleT2MarksmanRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": ".037,-.1,.16"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "SideRotation",
+								"_value": "0,0,20"
+							}
+						],
+						"_name": "gunExplosivesT3RocketLauncher"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,-.038,.32"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "SideRotation",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunBowT1IronCrossbow"
+					},
+					{
+						"property": [
+							{
+								"_name": "SideOffset",
+								"_value": "0,0,.32"
+							},
+							{
+								"_name": "SideScale",
+								"_value": "1,1,1"
+							}
+						],
+						"_name": "gunBowT3CompoundCrossbow"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "!HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfHoldingItemCreated",
+								"_action": "AttachPrefabToHeldItem",
+								"_prefab": "#Other/Items?Mods/Sides/side_attachment_flashlightPrefab.prefab",
+								"_parent_transform": "Attachments/Side"
+							},
+							{
+								"_trigger": "onSelfItemActivate",
+								"_action": "SetTransformActive",
+								"_active": "true",
+								"_parent_transform": "Side",
+								"_transform_path": "lightSource"
+							},
+							{
+								"_trigger": "onSelfItemDeactivate",
+								"_action": "SetTransformActive",
+								"_active": "false",
+								"_parent_transform": "Side",
+								"_transform_path": "lightSource"
+							},
+							{
+								"_trigger": "onSelfEquipStop",
+								"_action": "SetTransformActive",
+								"_active": "false",
+								"_parent_transform": "Side",
+								"_transform_path": "lightSource"
+							}
+						],
+						"_tiered": "false",
+						"_name": "external attachment prefab (old way)"
+					},
+					{
+						"requirement": {
+							"_name": "HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfHoldingItemCreated",
+								"_action": "SetTransformActive",
+								"_active": "true",
+								"_parent_transform": "#HeldItemRoot",
+								"_transform_path": "flashlight"
+							},
+							{
+								"_trigger": "onSelfItemActivate",
+								"_action": "SetTransformActive",
+								"_active": "true",
+								"_parent_transform": "Gunjoint",
+								"_transform_path": "flashlight_lightSource"
+							},
+							{
+								"_trigger": "onSelfItemDeactivate",
+								"_action": "SetTransformActive",
+								"_active": "false",
+								"_parent_transform": "Gunjoint",
+								"_transform_path": "flashlight_lightSource"
+							},
+							{
+								"_trigger": "onSelfEquipStop",
+								"_action": "SetTransformActive",
+								"_active": "false",
+								"_parent_transform": "Gunjoint",
+								"_transform_path": "flashlight_lightSource"
+							}
+						],
+						"_tiered": "false",
+						"_name": "internal attachment prefab (A19)"
+					}
+				],
+				"_name": "modGunFlashlight",
+				"_installable_tags": "sideAttachments,turretMelee",
+				"_modifier_tags": "sideAttachment",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunScopeSmallSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "CrosshairOnAim",
+								"_value": "true"
+							},
+							{
+								"_name": "Zoom_overlay",
+								"_value": "#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"
+							},
+							{
+								"_name": "Zoom_max_out",
+								"_value": "40"
+							},
+							{
+								"_name": "Zoom_max_in",
+								"_value": "40"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.074,.078"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.0225,0"
+							}
+						],
+						"_name": "gunHandgunT1Pistol"
+					},
+					{
+						"property": {
+							"_name": "ScopeOffset",
+							"_value": "0,.056,.013"
+						},
+						"_name": "gunShotgunT2PumpShotgun"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.088,-.2"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.04,0"
+							}
+						],
+						"_name": "gunMGT1AK47"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,0.1047,-0.2"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.022,0"
+							}
+						],
+						"_name": "gunMGT2TacticalAR"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.1037,.0689"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunHandgunT2Magnum44"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.0999,-.2534"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunHandgunT3SMG5"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "-.0006,.081,.005"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.01,0"
+							}
+						],
+						"_name": "gunRifleT1HuntingRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.0736,-.1497"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunRifleT2MarksmanRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "-.082,.012,.186"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							},
+							{
+								"_name": "ScopeRotation",
+								"_value": "0,0,80"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunExplosivesT3RocketLauncher"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.061,-.0761"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunBowT1IronCrossbow"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.092,-.06"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							}
+						],
+						"_name": "gunBowT3CompoundCrossbow"
+					},
+					{
+						"property": {
+							"_name": "ScopeCameraOffset",
+							"_value": "0,-.03,-.2"
+						},
+						"_name": "gunHandgunT3DesertVulture"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "!HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "AttachPrefabToHeldItem",
+							"_prefab": "#Other/Items?Mods/Scopes/scope_2xPrefab.prefab",
+							"_parent_transform": "Attachments/Scope"
+						},
+						"_tiered": "false",
+						"_name": "external attachment prefab (old way)"
+					},
+					{
+						"requirement": {
+							"_name": "HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "SetTransformActive",
+							"_active": "true",
+							"_parent_transform": "#HeldItemRoot",
+							"_transform_path": "scope"
+						},
+						"_tiered": "false",
+						"_name": "internal attachment prefab (A19)"
+					},
+					{
+						"passive_effect": [
+							{
+								"_name": "SpreadMultiplierAiming",
+								"_operation": "perc_add",
+								"_value": "-.1",
+								"_tags": "perkGunslinger,perkDeadEye,perkMachineGunner,perkArchery,admin"
+							},
+							{
+								"requirement": {
+									"_name": "ItemHasTags",
+									"_tags": "perkDeadEye,crossbow"
+								},
+								"_name": "SpreadMultiplierAiming",
+								"_operation": "perc_add",
+								"_value": "-.1",
+								"_tags": "perkDeadEye,perkArchery,admin"
+							},
+							{
+								"requirement": [
+									{
+										"_name": "ProgressionLevel",
+										"_progression_name": "perkSniperDamage",
+										"_operation": "Equals",
+										"_value": "1"
+									},
+									{
+										"_name": "HasBuff",
+										"_buff": "buffHoldBreathAiming01"
+									}
+								],
+								"_name": "EntityDamage",
+								"_operation": "perc_add",
+								"_value": ".1"
+							}
+						],
+						"_tiered": "false",
+						"_name": "mod effects"
+					}
+				],
+				"_name": "modGunScopeSmall",
+				"_installable_tags": "smallTopAttachments",
+				"_modifier_tags": "scope",
+				"_blocked_tags": "noMods,noScopes",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunScopeMediumSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "CrosshairOnAim",
+								"_value": "true"
+							},
+							{
+								"_name": "Zoom_overlay",
+								"_value": "#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"
+							},
+							{
+								"_name": "Zoom_max_out",
+								"_value": "30"
+							},
+							{
+								"_name": "Zoom_max_in",
+								"_value": "20"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.085,-.14"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.022,0"
+							}
+						],
+						"_name": "gunMGT1AK47"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,0.1,-0.117"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.022,0"
+							}
+						],
+						"_name": "gunMGT2TacticalAR"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "-.0012,.098,-.2405"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".8,.8,.8"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunHandgunT3SMG5"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "-.0018,.075,.015"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.0238,0"
+							}
+						],
+						"_name": "gunRifleT1HuntingRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "-.0018,.07,-.10"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1.6,1.6,1.6"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunRifleT2MarksmanRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.061,-.0761"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunBowT1IronCrossbow"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.092,-.06"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							}
+						],
+						"_name": "gunBowT3CompoundCrossbow"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "!HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "AttachPrefabToHeldItem",
+							"_prefab": "#Other/Items?Mods/Scopes/scope_4xPrefab.prefab",
+							"_parent_transform": "Attachments/Scope"
+						},
+						"_tiered": "false",
+						"_name": "external attachment prefab (old way)"
+					},
+					{
+						"requirement": {
+							"_name": "HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "SetTransformActive",
+							"_active": "true",
+							"_parent_transform": "#HeldItemRoot",
+							"_transform_path": "scope"
+						},
+						"_tiered": "false",
+						"_name": "internal attachment prefab (A19)"
+					},
+					{
+						"passive_effect": [
+							{
+								"_name": "SpreadMultiplierAiming",
+								"_operation": "perc_add",
+								"_value": "-.18",
+								"_tags": "perkGunslinger,perkDeadEye,perkMachineGunner,perkArchery,admin"
+							},
+							{
+								"requirement": {
+									"_name": "ItemHasTags",
+									"_tags": "perkDeadEye,crossbow"
+								},
+								"_name": "SpreadMultiplierAiming",
+								"_operation": "perc_add",
+								"_value": "-.18",
+								"_tags": "perkDeadEye,perkArchery,admin"
+							},
+							{
+								"requirement": [
+									{
+										"_name": "ProgressionLevel",
+										"_progression_name": "perkSniperDamage",
+										"_operation": "Equals",
+										"_value": "1"
+									},
+									{
+										"_name": "HasBuff",
+										"_buff": "buffHoldBreathAiming01"
+									}
+								],
+								"_name": "EntityDamage",
+								"_operation": "perc_add",
+								"_value": ".1"
+							}
+						],
+						"_tiered": "false",
+						"_name": "mod effects"
+					}
+				],
+				"_name": "modGunScopeMedium",
+				"_installable_tags": "mediumTopAttachments",
+				"_modifier_tags": "scope",
+				"_blocked_tags": "noMods,noScopes,shotguns",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunScopeLargeSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "CrosshairOnAim",
+								"_value": "true"
+							},
+							{
+								"_name": "Zoom_overlay",
+								"_value": "#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"
+							},
+							{
+								"_name": "Zoom_max_out",
+								"_value": "20"
+							},
+							{
+								"_name": "Zoom_max_in",
+								"_value": "10"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,-.0523,.1686"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunMGT1AK47"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "-.0006,0,.14"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1.2,1.2,1.2"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.022,0"
+							}
+						],
+						"_name": "gunRifleT1HuntingRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,-.1029,-.1373"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunHandgunT3SMG5"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,0,0"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": "1,1,1"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunRifleT2MarksmanRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.061,-.0761"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunBowT1IronCrossbow"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.061,-.0761"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,0,0"
+							}
+						],
+						"_name": "gunBowT3CompoundCrossbow"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "!HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "AttachPrefabToHeldItem",
+							"_prefab": "#Other/Items?Mods/Scopes/scope_8xPrefab.prefab",
+							"_parent_transform": "Attachments/Scope"
+						},
+						"_tiered": "false",
+						"_name": "external attachment prefab (old way)"
+					},
+					{
+						"requirement": {
+							"_name": "HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "SetTransformActive",
+							"_active": "true",
+							"_parent_transform": "#HeldItemRoot",
+							"_transform_path": "scope"
+						},
+						"_tiered": "false",
+						"_name": "internal attachment prefab (A19)"
+					},
+					{
+						"passive_effect": [
+							{
+								"_name": "SpreadMultiplierAiming",
+								"_operation": "perc_add",
+								"_value": "-.25",
+								"_tags": "perkGunslinger,perkDeadEye,perkMachineGunner,perkArchery,admin"
+							},
+							{
+								"requirement": {
+									"_name": "ItemHasTags",
+									"_tags": "perkDeadEye,crossbow"
+								},
+								"_name": "SpreadMultiplierAiming",
+								"_operation": "perc_add",
+								"_value": "-.25",
+								"_tags": "perkDeadEye,perkArchery,admin"
+							},
+							{
+								"requirement": [
+									{
+										"_name": "ProgressionLevel",
+										"_progression_name": "perkSniperDamage",
+										"_operation": "Equals",
+										"_value": "1"
+									},
+									{
+										"_name": "HasBuff",
+										"_buff": "buffHoldBreathAiming01"
+									}
+								],
+								"_name": "EntityDamage",
+								"_operation": "perc_add",
+								"_value": ".1"
+							}
+						],
+						"_tiered": "false",
+						"_name": "mod effects"
+					}
+				],
+				"_name": "modGunScopeLarge",
+				"_installable_tags": "largeTopAttachments",
+				"_modifier_tags": "scope",
+				"_blocked_tags": "noMods,noScopes,shotguns",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunReflexSightSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "CrosshairOnAim",
+								"_value": "true"
+							},
+							{
+								"_name": "Zoom_max_out",
+								"_value": "55"
+							},
+							{
+								"_name": "Zoom_max_in",
+								"_value": "55"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.072,.11"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".7,.7,.7"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.037,0"
+							}
+						],
+						"_name": "gunHandgunT1Pistol"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.11,.12"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".5,.5,.5"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.04,.15"
+							}
+						],
+						"_name": "gunHandgunT2Magnum44"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": ".0001,.1,-.15"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".55,.55,.55"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "-.00005,-.0214,.15"
+							}
+						],
+						"_name": "gunHandgunT3SMG5"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.056,.05"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".7,.7,.7"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.0297,0"
+							}
+						],
+						"_name": "gunShotgunT0Blunderbuss"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.0816,.2104"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".25,.3,.3"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "-.0004,-.034,0"
+							}
+						],
+						"_name": "gunShotgunT1DoubleBarrel"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.056,.05"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".7,.7,.7"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.0375,0"
+							}
+						],
+						"_name": "gunShotgunT2PumpShotgun"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.08,-.2035"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".63,.63,.63"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.009,.35"
+							}
+						],
+						"_name": "gunMGT1AK47"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,0.097,-0.098"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".63,.63,.63"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.018,0.0016"
+							}
+						],
+						"_name": "gunMGT2TacticalAR"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "-.0006,.06,.08"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".7,.7,.7"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": ".0003,-.0185,.1"
+							}
+						],
+						"_name": "gunRifleT1HuntingRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.073,-.13"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".7,.7,.7"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": "0,-.0147,.12"
+							}
+						],
+						"_name": "gunRifleT2MarksmanRifle"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "-.08,.011,.186"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".9,.9,.9"
+							},
+							{
+								"_name": "ScopeRotation",
+								"_value": "0,0,80"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": ".0495,.0715,0"
+							}
+						],
+						"_name": "gunExplosivesT3RocketLauncher"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.052,-.05"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".6,.6,.6"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": ".00008,-.0166,.1"
+							}
+						],
+						"_name": "gunBowT1IronCrossbow"
+					},
+					{
+						"property": [
+							{
+								"_name": "ScopeOffset",
+								"_value": "0,.09,-.055"
+							},
+							{
+								"_name": "ScopeScale",
+								"_value": ".6,.6,.6"
+							},
+							{
+								"_name": "ScopeCameraOffset",
+								"_value": ".00008,-.021,.03"
+							}
+						],
+						"_name": "gunBowT3CompoundCrossbow"
+					},
+					{
+						"property": {
+							"_name": "ScopeCameraOffset",
+							"_value": "0,-.0145,0"
+						},
+						"_name": "gunHandgunT3DesertVulture"
+					},
+					{
+						"property": {
+							"_name": "ScopeCameraOffset",
+							"_value": "0.00135,.0245,0.05"
+						},
+						"_name": "gunShotgunT3AutoShotgun"
+					},
+					{
+						"property": {
+							"_name": "ScopeCameraOffset",
+							"_value": "0,-.0055,0"
+						},
+						"_name": "gunRifleT3SniperRifle"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "!HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "AttachPrefabToHeldItem",
+							"_prefab": "#Other/Items?Mods/Scopes/scope_laser_reflexPrefab.prefab",
+							"_parent_transform": "Attachments/Scope"
+						},
+						"_tiered": "false",
+						"_name": "external attachment prefab (old way)"
+					},
+					{
+						"requirement": {
+							"_name": "HoldingItemHasTags",
+							"_tags": "attachmentsIncluded"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfHoldingItemCreated",
+							"_action": "SetTransformActive",
+							"_active": "true",
+							"_parent_transform": "#HeldItemRoot",
+							"_transform_path": "holosight"
+						},
+						"_tiered": "false",
+						"_name": "internal attachment prefab (A19)"
+					},
+					{
+						"passive_effect": {
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": ".3"
+						},
+						"_tiered": "false",
+						"_name": "mod effects"
+					}
+				],
+				"_name": "modGunReflexSight",
+				"_installable_tags": "smallTopAttachments",
+				"_modifier_tags": "scope",
+				"_blocked_tags": "noMods,bow",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunTriggerGroupSemiSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "BurstRoundCount",
+							"_operation": "base_set",
+							"_value": "1"
+						},
+						{
+							"_name": "RoundsPerMinute",
+							"_operation": "perc_add",
+							"_value": ".1"
+						},
+						{
+							"_name": "IncrementalSpreadMultiplier",
+							"_operation": "perc_add",
+							"_value": ".05"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunTriggerGroupSemi",
+				"_installable_tags": "firingMode",
+				"_modifier_tags": "trigger",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunTriggerGroupBurst3Schematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modGunTriggerGroupBurst"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "BurstRoundCount",
+							"_operation": "base_set",
+							"_value": "3"
+						},
+						{
+							"_name": "RoundsPerMinute",
+							"_operation": "perc_add",
+							"_value": ".1"
+						},
+						{
+							"_name": "IncrementalSpreadMultiplier",
+							"_operation": "perc_add",
+							"_value": ".05"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunTriggerGroupBurst3",
+				"_installable_tags": "firingMode,turretRanged",
+				"_modifier_tags": "trigger",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunTriggerGroupAutomaticSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "BurstRoundCount",
+							"_operation": "base_set",
+							"_value": "999"
+						},
+						{
+							"_name": "RoundsPerMinute",
+							"_operation": "perc_add",
+							"_value": ".12"
+						},
+						{
+							"_name": "IncrementalSpreadMultiplier",
+							"_operation": "perc_add",
+							"_value": ".06"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunTriggerGroupAutomatic",
+				"_installable_tags": "firingMode,turretRanged",
+				"_modifier_tags": "trigger",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunBipodSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "SpreadMultiplierAiming",
+							"_operation": "perc_add",
+							"_value": "-.08"
+						},
+						{
+							"requirement": {
+								"_name": "ItemHasTags",
+								"_tags": "perkDeadEye,crossbow"
+							},
+							"_name": "SpreadMultiplierAiming",
+							"_operation": "perc_add",
+							"_value": "-.09"
+						},
+						{
+							"_name": "SpreadMultiplierWalking",
+							"_operation": "perc_add",
+							"_value": ".05"
+						},
+						{
+							"_name": "SpreadMultiplierHip",
+							"_operation": "perc_add",
+							"_value": ".05"
+						},
+						{
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": "-.05"
+						},
+						{
+							"requirement": {
+								"_name": "HasBuff",
+								"_buff": "buffHoldBreathAiming01"
+							},
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": ".35"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunBipod",
+				"_installable_tags": "bottomAttachments",
+				"_modifier_tags": "accuracy",
+				"_blocked_tags": "noMods,shortRange",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunForegripSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "SpreadMultiplierCrouching",
+							"_operation": "perc_add",
+							"_value": "-.15"
+						},
+						{
+							"_name": "SpreadMultiplierHip",
+							"_operation": "perc_add",
+							"_value": "-.15"
+						},
+						{
+							"_name": "SpreadMultiplierWalking",
+							"_operation": "perc_add",
+							"_value": "-.15"
+						},
+						{
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": ".13"
+						},
+						{
+							"requirement": {
+								"_name": "HasBuff",
+								"_buff": "buffHoldBreathAiming01"
+							},
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": "-.08"
+						},
+						{
+							"_name": "KickDegreesVerticalMin",
+							"_operation": "perc_add",
+							"_value": "-.5"
+						},
+						{
+							"_name": "KickDegreesVerticalMax",
+							"_operation": "perc_add",
+							"_value": "-.5"
+						},
+						{
+							"_name": "KickDegreesHorizontalMin",
+							"_operation": "perc_add",
+							"_value": "-.5"
+						},
+						{
+							"_name": "KickDegreesHorizontalMax",
+							"_operation": "perc_add",
+							"_value": "-.5"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunForegrip",
+				"_installable_tags": "bottomAttachments,turretRanged",
+				"_modifier_tags": "grips",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunRetractingStockSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "SpreadMultiplierHip",
+						"_operation": "perc_add",
+						"_value": "-.15"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunRetractingStock",
+				"_installable_tags": "stock",
+				"_modifier_tags": "stocks",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modShotgunSawedOffBarrelSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": {
+					"property": {
+						"_name": "HandMeshfile",
+						"_value": "#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/SawedOffPumpShotgunPrefab.prefab"
+					},
+					"_name": "gunShotgunT2PumpShotgun"
+				},
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "MaxRange",
+							"_operation": "perc_add",
+							"_value": "-.15"
+						},
+						{
+							"_name": "DamageFalloffRange",
+							"_operation": "perc_add",
+							"_value": "-.15"
+						},
+						{
+							"_name": "SpreadDegreesVertical",
+							"_operation": "perc_set",
+							"_value": "1.2"
+						},
+						{
+							"_name": "SpreadDegreesHorizontal",
+							"_operation": "perc_set",
+							"_value": "1.2"
+						}
+					],
+					"_tiered": "false",
+					"_name": "Base Effects"
+				},
+				"_name": "modShotgunSawedOffBarrel",
+				"_installable_tags": "shotgun",
+				"_modifier_tags": "barrelAttachment",
+				"_blocked_tags": "noMods,dBarrel",
+				"_type": "attachment",
+				"_icon": "resourceScrapIron"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunDuckbillSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "SpreadDegreesVertical",
+							"_operation": "perc_add",
+							"_value": "-.45"
+						},
+						{
+							"_name": "SpreadDegreesHorizontal",
+							"_operation": "perc_add",
+							"_value": ".75"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunDuckbill",
+				"_installable_tags": "shotgun,turretRanged",
+				"_modifier_tags": "barrelAttachment",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunChokeSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "SpreadDegreesVertical",
+							"_operation": "perc_add",
+							"_value": "-.4"
+						},
+						{
+							"_name": "SpreadDegreesHorizontal",
+							"_operation": "perc_add",
+							"_value": "-.4"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunChoke",
+				"_installable_tags": "shotgun,turretRanged",
+				"_modifier_tags": "barrelAttachment",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunMagazineExtenderSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "MagazineSize",
+						"_operation": "perc_add",
+						"_value": ".5"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunMagazineExtender",
+				"_installable_tags": "magazine,turretRanged",
+				"_modifier_tags": "magazine",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "perkAutoWeaponsDrumMag"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "MagazineSize",
+							"_operation": "perc_add",
+							"_value": "1"
+						},
+						{
+							"_name": "ReloadSpeedMultiplier",
+							"_operation": "perc_add",
+							"_value": "-.25"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunDrumMagazineExtender",
+				"_installable_tags": "drumMagazine",
+				"_modifier_tags": "magazine",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "perkShotgunMessiahMagazine"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "MagazineSize",
+						"_operation": "perc_add",
+						"_value": ".375"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunShotgunTubeExtenderMagazine",
+				"_installable_tags": "modGunShotgunTubeExtenderMagazine",
+				"_modifier_tags": "magazine",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "apparelGothBoots"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "255,0,255"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "DamageFalloffRange",
+							"_operation": "perc_add",
+							"_value": ".25"
+						},
+						{
+							"_name": "MaxRange",
+							"_operation": "perc_add",
+							"_value": ".25"
+						},
+						{
+							"_name": "SpreadMultiplierHip",
+							"_operation": "perc_add",
+							"_value": "-.25"
+						},
+						{
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": ".3"
+						},
+						{
+							"_name": "RoundsPerMinute",
+							"_operation": "perc_add",
+							"_value": ".5"
+						},
+						{
+							"_name": "SpreadMultiplierAiming",
+							"_operation": "perc_add",
+							"_value": "-.3"
+						},
+						{
+							"_name": "SpreadMultiplierCrouching",
+							"_operation": "perc_add",
+							"_value": ".4"
+						},
+						{
+							"_name": "SpreadMultiplierHip",
+							"_operation": "perc_add",
+							"_value": ".4"
+						},
+						{
+							"_name": "SpreadMultiplierWalking",
+							"_operation": "perc_add",
+							"_value": ".4"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunButtkick3000",
+				"_installable_tags": "weapon,tool",
+				"_type": "attachment",
+				"_rarity": "1"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunButtkick4000Schematic"
+					},
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "apparelGothBoots"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "0,0,255"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "AttributeLevel",
+							"_operation": "base_set",
+							"_value": "10"
+						},
+						{
+							"_name": "SkillLevel",
+							"_operation": "base_set",
+							"_value": "1"
+						},
+						{
+							"_name": "PerkLevel",
+							"_operation": "base_set",
+							"_value": "5"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunButtkick4000",
+				"_installable_tags": "weapon,tool",
+				"_type": "attachment",
+				"_rarity": "1"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Dev"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "meleeWpnBladeT1CandyKnife"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "255,0,255"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "EntityDamage",
+							"_operation": "base_set",
+							"_value": "0"
+						},
+						{
+							"_name": "EntityDamage",
+							"_operation": "perc_add",
+							"_value": "-5"
+						},
+						{
+							"_name": "DismemberChance",
+							"_operation": "base_add",
+							"_value": "90"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modMeleeGunToolDecapitizer",
+				"_installable_tags": "weapon,tool",
+				"_type": "attachment",
+				"_rarity": "1"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunCrippleEmSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": [
+							{
+								"_name": "EntityTagCompare",
+								"_target": "other",
+								"_tags": "walker"
+							},
+							{
+								"_name": "!HoldingItemHasTags",
+								"_tags": "shotgun"
+							},
+							{
+								"_name": "RandomRoll",
+								"_seed_type": "Random",
+								"_min_max": "0,100",
+								"_operation": "LTE",
+								"_value": "20"
+							}
+						],
+						"triggered_effect": {
+							"_trigger": "onSelfDamagedOther",
+							"_action": "AddBuff",
+							"_target": "other",
+							"_buff": "buffInjuryCrippled01"
+						},
+						"_tiered": "false"
+					},
+					{
+						"requirement": [
+							{
+								"_name": "EntityTagCompare",
+								"_target": "other",
+								"_tags": "walker"
+							},
+							{
+								"_name": "HoldingItemHasTags",
+								"_tags": "shotgun"
+							},
+							{
+								"_name": "RandomRoll",
+								"_seed_type": "Random",
+								"_min_max": "0,800",
+								"_operation": "LTE",
+								"_value": "20"
+							}
+						],
+						"triggered_effect": {
+							"_trigger": "onSelfDamagedOther",
+							"_action": "AddBuff",
+							"_target": "other",
+							"_buff": "buffInjuryCrippled01"
+						},
+						"_tiered": "false"
+					}
+				],
+				"_name": "modGunCrippleEm",
+				"_installable_tags": "ranged",
+				"_modifier_tags": "crippling",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunBowPolymerStringSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "ProjectileVelocity",
+						"_operation": "perc_add",
+						"_value": ".15"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunBowPolymerString",
+				"_installable_tags": "perkArchery",
+				"_modifier_tags": "velocity",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunBowArrowRestSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "SpreadMultiplierAiming",
+							"_operation": "perc_add",
+							"_value": "-.1"
+						},
+						{
+							"_name": "SpreadMultiplierHip",
+							"_operation": "perc_add",
+							"_value": "-.1"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modGunBowArrowRest",
+				"_installable_tags": "bow",
+				"_modifier_tags": "accuracy",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunMeleeTheHunterSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"requirement": {
+						"_name": "EntityTagCompare",
+						"_target": "other",
+						"_tags": "player,animal"
+					},
+					"passive_effect": {
+						"_name": "EntityDamage",
+						"_operation": "perc_add",
+						"_value": "1"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunMeleeTheHunter",
+				"_installable_tags": "weapon,tool",
+				"_modifier_tags": "specialDamage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunMeleeRadRemoverSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"requirement": {
+						"_name": "EntityTagCompare",
+						"_target": "other",
+						"_tags": "radiated"
+					},
+					"triggered_effect": {
+						"_trigger": "onSelfDamagedOther",
+						"_action": "AddBuff",
+						"_target": "other",
+						"_buff": "buffRadiatedRegenBlock"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunMeleeRadRemover",
+				"_installable_tags": "weapon,tool",
+				"_modifier_tags": "specialDamage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modGunMeleeBlessedMetalSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"requirement": {
+						"_name": "EntityTagCompare",
+						"_target": "other",
+						"_tags": "zombie"
+					},
+					"passive_effect": {
+						"_name": "EntityDamage",
+						"_operation": "perc_add",
+						"_value": "1"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunMeleeBlessedMetal",
+				"_installable_tags": "weapon,tool",
+				"_modifier_tags": "specialDamage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": {
+					"property": {
+						"_name": "DamageType",
+						"_value": "Electrical"
+					},
+					"_name": "*"
+				},
+				"effect_group": {
+					"passive_effect": {
+						"_name": "BlockDamage",
+						"_operation": "perc_add",
+						"_value": ".4"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunMeleeNiCdBattery",
+				"_installable_tags": "weapon,tool",
+				"_modifier_tags": "specialDamage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": {
+					"property": {
+						"_name": "DamageType",
+						"_value": "Heat"
+					},
+					"_name": "*"
+				},
+				"effect_group": {
+					"passive_effect": {
+						"_name": "BlockDamage",
+						"_operation": "perc_add",
+						"_value": ".4"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunMeleeFlammableOil",
+				"_installable_tags": "weapon,tool",
+				"_modifier_tags": "specialDamage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": {
+					"property": {
+						"_name": "DamageType",
+						"_value": "Cold"
+					},
+					"_name": "*"
+				},
+				"effect_group": {
+					"passive_effect": {
+						"_name": "BlockDamage",
+						"_operation": "perc_add",
+						"_value": ".4"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modGunMeleeLiquidNitrogen",
+				"_installable_tags": "weapon,tool",
+				"_modifier_tags": "specialDamage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeTemperedBladeSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "BlockDamage",
+							"_operation": "perc_add",
+							"_value": ".1"
+						},
+						{
+							"_name": "DegradationPerUse",
+							"_operation": "perc_add",
+							"_value": "-.15",
+							"_tags": "perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modMeleeTemperedBlade",
+				"_installable_tags": "perkDeepCuts,axe,shovel,perkBrawler,perkJavelinMaster",
+				"_modifier_tags": "damage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeSerratedBladeSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": [
+							{
+								"_name": "RandomRoll",
+								"_seed_type": "Random",
+								"_min_max": "0,100",
+								"_operation": "LTE",
+								"_value": "10"
+							},
+							{
+								"_name": "CVarCompare",
+								"_cvar": "bleedCounter",
+								"_operation": "LT",
+								"_value": "@$maxBleedCounter",
+								"_target": "other"
+							}
+						],
+						"triggered_effect": {
+							"_trigger": "onSelfPrimaryActionRayHit",
+							"_action": "ModifyCVar",
+							"_target": "other",
+							"_cvar": "bleedCounter",
+							"_operation": "add",
+							"_value": "1"
+						},
+						"_tiered": "false"
+					},
+					{
+						"requirement": {
+							"_name": "CVarCompare",
+							"_cvar": "bleedCounter",
+							"_operation": "GT",
+							"_value": "0",
+							"_target": "other"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfPrimaryActionRayHit",
+							"_action": "AddBuff",
+							"_target": "other",
+							"_buff": "buffInjuryBleeding"
+						},
+						"_tiered": "false"
+					}
+				],
+				"_name": "modMeleeSerratedBlade",
+				"_installable_tags": "knife,machete,axe,shovel,perkBrawler,perkJavelinMaster",
+				"_modifier_tags": "damage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeWeightedHeadSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"requirement": {
+						"_name": "RandomRoll",
+						"_seed_type": "Random",
+						"_min_max": "0,100",
+						"_operation": "LTE",
+						"_value": "15"
+					},
+					"triggered_effect": {
+						"_trigger": "onSelfAttackedOther",
+						"_action": "AddBuff",
+						"_target": "other",
+						"_buff": "buffInjuryStunned01"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modMeleeWeightedHead",
+				"_installable_tags": "light,medium,heavy,turretMelee",
+				"_modifier_tags": "damage",
+				"_blocked_tags": "noMods,perkDeepCuts",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeStructuralBraceSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "DegradationPerUse",
+						"_operation": "perc_add",
+						"_value": "-.25",
+						"_tags": "perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modMeleeStructuralBrace",
+				"_installable_tags": "melee,perkArchery",
+				"_modifier_tags": "durability",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeErgonomicGripSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "!HoldingItemHasTags",
+							"_tags": "perkArchery"
+						},
+						"passive_effect": {
+							"_name": "StaminaLoss",
+							"_operation": "perc_add",
+							"_value": "-.1",
+							"_tags": "primary,secondary"
+						},
+						"_tiered": "false"
+					},
+					{
+						"requirement": {
+							"_name": "HoldingItemHasTags",
+							"_tags": "perkArchery"
+						},
+						"passive_effect": {
+							"_name": "WeaponHandling",
+							"_operation": "perc_add",
+							"_value": ".1"
+						},
+						"_tiered": "false"
+					}
+				],
+				"_name": "modMeleeErgonomicGrip",
+				"_installable_tags": "melee,bow",
+				"_modifier_tags": "health",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeFortifyingGripSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"requirement": {
+						"_name": "StatComparePercCurrentToModMax",
+						"_stat": "health",
+						"_operation": "LTE",
+						"_value": ".5"
+					},
+					"passive_effect": {
+						"_name": "HealthChangeOT",
+						"_operation": "base_add",
+						"_value": ".2"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modMeleeFortifyingGrip",
+				"_installable_tags": "melee",
+				"_modifier_tags": "health",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeClubBarbedWireSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": {
+							"_name": "Material",
+							"_value": "Mmetal"
+						},
+						"_name": "*"
+					},
+					{
+						"property": {
+							"_name": "Meshfile",
+							"_value": "#Other/Items?Weapons/Melee/ClubWood/ClubWoodBarbPrefab.prefab"
+						},
+						"_name": "meleeWpnClubT0WoodenClub"
+					},
+					{
+						"property": {
+							"_name": "Meshfile",
+							"_value": "#Other/Items?Weapons/Melee/Bat/batBarbed_Prefab.prefab"
+						},
+						"_name": "meleeWpnClubT1BaseballBat"
+					},
+					{
+						"_name": "meleeWpnClubT1CandyClub"
+					},
+					{
+						"property": {
+							"_name": "HandMeshfile",
+							"_value": "#Other/Items?Weapons/Melee/ClubIron/ClubIronBarbPrefab.prefab"
+						},
+						"_name": "meleeWpnClubT3SteelClub"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "RandomRoll",
+							"_seed_type": "Random",
+							"_min_max": "0,100",
+							"_operation": "LTE",
+							"_value": "20"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfPrimaryActionRayHit",
+							"_action": "AddBuff",
+							"_target": "other",
+							"_buff": "buffInjuryBleedingBarbedWire"
+						},
+						"_tiered": "false"
+					},
+					{
+						"requirement": {
+							"_name": "RandomRoll",
+							"_seed_type": "Random",
+							"_min_max": "0,100",
+							"_operation": "LTE",
+							"_value": "40"
+						},
+						"triggered_effect": {
+							"_trigger": "onSelfSecondaryActionRayHit",
+							"_action": "AddBuff",
+							"_target": "other",
+							"_buff": "buffInjuryBleedingBarbedWire"
+						},
+						"_tiered": "false",
+						"_name": "Power Attack"
+					},
+					{
+						"requirement": {
+							"_name": "HasBuff",
+							"_target": "other",
+							"_buff": "buffInjuryBleeding"
+						},
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfPrimaryActionRayHit",
+								"_action": "AddBuff",
+								"_target": "other",
+								"_buff": "buffInjuryBleeding"
+							},
+							{
+								"_trigger": "onSelfSecondaryActionRayHit",
+								"_action": "AddBuff",
+								"_target": "other",
+								"_buff": "buffInjuryBleeding"
+							}
+						],
+						"_tiered": "false",
+						"_name": "Always extend bleeding"
+					}
+				],
+				"_name": "modMeleeClubBarbedWire",
+				"_installable_tags": "club",
+				"_modifier_tags": "shaft",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeClubMetalSpikesSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "Material",
+								"_value": "Mmetal"
+							},
+							{
+								"_name": "Damage_type",
+								"_value": "Piercing"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": {
+							"_name": "Meshfile",
+							"_value": "#Other/Items?Weapons/Melee/ClubWood/ClubWoodSpikePrefab.prefab"
+						},
+						"_name": "meleeWpnClubT0WoodenClub"
+					},
+					{
+						"property": {
+							"_name": "Meshfile",
+							"_value": "#Other/Items?Weapons/Melee/Bat/batSpikes_Prefab.prefab"
+						},
+						"_name": "meleeWpnClubT1BaseballBat"
+					},
+					{
+						"_name": "meleeWpnClubT1CandyClub"
+					},
+					{
+						"property": {
+							"_name": "HandMeshfile",
+							"_value": "#Other/Items?Weapons/Melee/ClubIron/ClubIronSpikePrefab.prefab"
+						},
+						"_name": "meleeWpnClubT3SteelClub"
+					}
+				],
+				"effect_group": {
+					"triggered_effect": {
+						"_trigger": "onSelfDamagedOther",
+						"_action": "AddBuff",
+						"_target": "other",
+						"_buff": "buffArmorShredding"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modMeleeClubMetalSpikes",
+				"_installable_tags": "club",
+				"_modifier_tags": "shaft",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "perkBatterUpMetalChain"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": {
+							"_name": "Material",
+							"_value": "Mmetal"
+						},
+						"_name": "*"
+					},
+					{
+						"property": {
+							"_name": "Meshfile",
+							"_value": "#Other/Items?Weapons/Melee/ClubWood/ClubWoodChainPrefab.prefab"
+						},
+						"_name": "meleeWpnClubT0WoodenClub"
+					},
+					{
+						"property": {
+							"_name": "Meshfile",
+							"_value": "#Other/Items?Weapons/Melee/Bat/batChained_Prefab.prefab"
+						},
+						"_name": "meleeWpnClubT1BaseballBat"
+					},
+					{
+						"_name": "meleeWpnClubT1CandyClub"
+					},
+					{
+						"property": {
+							"_name": "HandMeshfile",
+							"_value": "#Other/Items?Weapons/Melee/ClubIron/ClubIronChainPrefab.prefab"
+						},
+						"_name": "meleeWpnClubT3SteelClub"
+					}
+				],
+				"effect_group": {
+					"requirement": {
+						"_name": "RandomRoll",
+						"_seed_type": "Random",
+						"_target": "self",
+						"_min_max": "0,100",
+						"_operation": "LTE",
+						"_value": "10"
+					},
+					"triggered_effect": {
+						"_trigger": "onSelfDamagedOther",
+						"_action": "AddBuff",
+						"_target": "other",
+						"_buff": "buffInjuryKnockdown01"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modMeleeClubMetalChain",
+				"_installable_tags": "club",
+				"_modifier_tags": "shaft",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeClubBurningShaftSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "LightValue",
+								"_value": ".45"
+							},
+							{
+								"_name": "LightSource",
+								"_value": "lightSource"
+							},
+							{
+								"_name": "ActivateObject",
+								"_value": "lightSource"
+							},
+							{
+								"_name": "AlwaysActive",
+								"_value": "true"
+							},
+							{
+								"_name": "FlameEffect",
+								"_value": "ItemModEffects/mod_flame_defaultPrefab"
+							},
+							{
+								"_name": "MatEmission",
+								"_value": "1"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_bat_flamePrefab"
+						},
+						"_name": "meleeWpnClubT1BaseballBat"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_club_flamePrefab"
+						},
+						"_name": "meleeWpnClubT3SteelClub"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_stone_axe_flamePrefab"
+						},
+						"_name": "meleeToolRepairT0StoneAxe"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_fireaxe_flamePrefab"
+						},
+						"_name": "meleeToolAxeT1IronFireaxe"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_steel_axe_flamePrefab"
+						},
+						"_name": "meleeToolAxeT2SteelAxe"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_spear_flamePrefab"
+						},
+						"_name": "meleeWpnSpearT0StoneSpear"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_spear_iron_flamePrefab"
+						},
+						"_name": "meleeWpnSpearT1IronSpear"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_spear_steel_flamePrefab"
+						},
+						"_name": "meleeWpnSpearT3SteelSpear"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_junk_sledge_flamePrefab"
+						},
+						"_name": "gunBotT1JunkSledge"
+					},
+					{
+						"property": {
+							"_name": "FlameEffect",
+							"_value": "ItemModEffects/mod_machete_flamePrefab"
+						},
+						"_name": "meleeWpnBladeT3Machete"
+					}
+				],
+				"effect_group": [
+					{
+						"passive_effect": [
+							{
+								"_name": "LightMultiplier",
+								"_operation": "base_add",
+								"_value": ".28"
+							},
+							{
+								"requirement": {
+									"_name": "CVarCompare",
+									"_cvar": "_underwater",
+									"_operation": "LT",
+									"_value": "1"
+								},
+								"_name": "HypothermalResist",
+								"_operation": "base_add",
+								"_value": "4"
+							}
+						],
+						"_tiered": "false",
+						"_name": "SpecialEffects"
+					},
+					{
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfWaterSurface",
+								"_action": "AddPart",
+								"_part": "Flames",
+								"_prefab": "property?FlameEffect",
+								"_parentTransform": "#HeldItemRoot"
+							},
+							{
+								"_trigger": "onSelfWaterSubmerge",
+								"_action": "RemovePart",
+								"_part": "Flames"
+							},
+							{
+								"_trigger": "onSelfEquipStop",
+								"_action": "RemovePart",
+								"_part": "Flames"
+							},
+							{
+								"_trigger": "onSelfDied",
+								"_action": "RemovePart",
+								"_part": "Flames"
+							}
+						],
+						"_name": "light/douse torch always",
+						"_tiered": "false"
+					},
+					{
+						"requirement": {
+							"_name": "CVarCompare",
+							"_cvar": "_underwater",
+							"_operation": "LT",
+							"_value": "1"
+						},
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfEquipStart",
+								"_action": "AddPart",
+								"_part": "Flames",
+								"_prefab": "property?FlameEffect",
+								"_parentTransform": "#HeldItemRoot"
+							},
+							{
+								"_trigger": "onSelfHoldingItemCreated",
+								"_action": "AddPart",
+								"_part": "Flames",
+								"_prefab": "property?FlameEffect",
+								"_parentTransform": "#HeldItemRoot"
+							},
+							{
+								"_trigger": "onSelfHoldingItemThrown",
+								"_action": "AddPart",
+								"_part": "Flames",
+								"_prefab": "property?FlameEffect",
+								"_parentTransform": "#HeldItemRoot"
+							},
+							{
+								"_trigger": "onSelfHoldingItemThrown",
+								"_action": "AttachPrefabToHeldItem",
+								"_prefab": "property?FlameEffect"
+							},
+							{
+								"_trigger": "onSelfSwimStop",
+								"_action": "AddPart",
+								"_part": "Flames",
+								"_prefab": "property?FlameEffect",
+								"_parentTransform": "#HeldItemRoot"
+							}
+						],
+						"_name": "light torch",
+						"_tiered": "false"
+					},
+					{
+						"requirement": [
+							{
+								"_name": "CVarCompare",
+								"_cvar": "_underwater",
+								"_operation": "LT",
+								"_value": ".93"
+							},
+							{
+								"_name": "RandomRoll",
+								"_seed_type": "Random",
+								"_target": "self",
+								"_min_max": "0,100",
+								"_operation": "LTE",
+								"_value": "30"
+							}
+						],
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfAttackedOther",
+								"_action": "AddBuff",
+								"_target": "other",
+								"_buff": "buffBurningElement"
+							},
+							{
+								"requirement": {
+									"_name": "ProgressionLevel",
+									"_progression_name": "perkFiremansAlmanacMolotov",
+									"_operation": "Equals",
+									"_value": "0"
+								},
+								"_trigger": "onSelfAttackedOther",
+								"_action": "ModifyCVar",
+								"_target": "other",
+								"_cvar": "$buffBurningElementDuration",
+								"_operation": "set",
+								"_value": "10"
+							},
+							{
+								"requirement": {
+									"_name": "ProgressionLevel",
+									"_progression_name": "perkFiremansAlmanacMolotov",
+									"_operation": "Equals",
+									"_value": "1"
+								},
+								"_trigger": "onSelfAttackedOther",
+								"_action": "ModifyCVar",
+								"_target": "other",
+								"_cvar": "$buffBurningElementDuration",
+								"_operation": "set",
+								"_value": "11"
+							}
+						],
+						"_name": "new Fire Proc",
+						"_tiered": "false"
+					},
+					{
+						"requirement": [
+							{
+								"_name": "CVarCompare",
+								"_cvar": "_underwater",
+								"_operation": "LT",
+								"_value": ".93"
+							},
+							{
+								"_name": "HasBuff",
+								"_target": "other",
+								"_buff": "buffBurningElement"
+							}
+						],
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfAttackedOther",
+								"_action": "AddBuff",
+								"_target": "other",
+								"_buff": "buffBurningElement"
+							},
+							{
+								"requirement": {
+									"_name": "ProgressionLevel",
+									"_progression_name": "perkFiremansAlmanacMolotov",
+									"_operation": "Equals",
+									"_value": "1"
+								},
+								"_trigger": "onSelfAttackedOther",
+								"_action": "ModifyCVar",
+								"_target": "other",
+								"_cvar": "$buffBurningElementDuration",
+								"_operation": "set",
+								"_value": "11"
+							}
+						],
+						"_name": "always refresh existing Fire Proc",
+						"_tiered": "false"
+					}
+				],
+				"_name": "modMeleeClubBurningShaft",
+				"_installable_tags": "longShaft",
+				"_modifier_tags": "fire",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "perkFiremansAlmanacAxes"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "EntityDamage",
+							"_operation": "perc_add",
+							"_value": "-.25"
+						},
+						{
+							"_name": "BlockDamage",
+							"_operation": "perc_add",
+							"_value": ".25"
+						}
+					],
+					"triggered_effect": [
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddBuff",
+							"_buff": "buffHarvestXPBalance"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemoveBuff",
+							"_buff": "buffHarvestXPBalance"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modMeleeFiremansAxeMod",
+				"_installable_tags": "axe",
+				"_modifier_tags": "damageDirt,damageStone,damageIron",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeGraveDiggerSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "DamageModifier",
+						"_operation": "perc_add",
+						"_value": ".15",
+						"_tags": "earth"
+					},
+					"triggered_effect": [
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddBuff",
+							"_buff": "buffHarvestXPBalance"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemoveBuff",
+							"_buff": "buffHarvestXPBalance"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modMeleeGraveDigger",
+				"_installable_tags": "melee",
+				"_modifier_tags": "damageDirt",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeBunkerBusterSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "DamageModifier",
+						"_operation": "perc_add",
+						"_value": ".15",
+						"_tags": "stone"
+					},
+					"triggered_effect": [
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddBuff",
+							"_buff": "buffHarvestXPBalance"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemoveBuff",
+							"_buff": "buffHarvestXPBalance"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modMeleeBunkerBuster",
+				"_installable_tags": "melee",
+				"_modifier_tags": "damageStone",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeIronBreakerSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "DamageModifier",
+						"_operation": "perc_add",
+						"_value": ".15",
+						"_tags": "metal"
+					},
+					"triggered_effect": [
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddBuff",
+							"_buff": "buffHarvestXPBalance"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemoveBuff",
+							"_buff": "buffHarvestXPBalance"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modMeleeIronBreaker",
+				"_installable_tags": "melee",
+				"_modifier_tags": "damageIron",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modMeleeWoodSplitterSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "DamageModifier",
+						"_operation": "perc_add",
+						"_value": ".15",
+						"_tags": "wood"
+					},
+					"triggered_effect": [
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddBuff",
+							"_buff": "buffHarvestXPBalance"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemoveBuff",
+							"_buff": "buffHarvestXPBalance"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modMeleeWoodSplitter",
+				"_installable_tags": "melee",
+				"_modifier_tags": "damageWood",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "UnlockedBy",
+						"_value": "perkArtOfMiningDiamondTools"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "DegradationPerUse",
+						"_operation": "perc_add",
+						"_value": "-.4",
+						"_tags": "perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modMeleeDiamondTip",
+				"_installable_tags": "tool,perkBrawler,perkJavelinMaster,perkDeepCuts",
+				"_modifier_tags": "durability",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "UnlockedBy",
+						"_value": "perkTechJunkie5Repulsor"
+					}
+				],
+				"effect_group": {
+					"triggered_effect": [
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddBuff",
+							"_buff": "buffmodMeleeStunBatonRepulsor"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemoveBuff",
+							"_buff": "buffmodMeleeStunBatonRepulsor"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modMeleeStunBatonRepulsor",
+				"_installable_tags": "perkElectrocutioner",
+				"_modifier_tags": "knockback",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modFuelTankSmallSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "MagazineSize",
+						"_operation": "perc_add",
+						"_value": ".5"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modFuelTankSmall",
+				"_installable_tags": "motorTool",
+				"_modifier_tags": "fuel",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modFuelTankLargeSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "MagazineSize",
+						"_operation": "perc_add",
+						"_value": "1"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modFuelTankLarge",
+				"_installable_tags": "motorTool",
+				"_modifier_tags": "fuel",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorBandolierSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": [
+					{
+						"requirement": {
+							"_name": "ItemHasTags",
+							"_tags": "armorChest"
+						},
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfEquipStart",
+								"_action": "AddBuff",
+								"_buff": "buffBandolierChest"
+							},
+							{
+								"_trigger": "onSelfEquipStop",
+								"_action": "RemoveBuff",
+								"_buff": "buffBandolierChest"
+							}
+						],
+						"_tiered": "false"
+					},
+					{
+						"requirement": {
+							"_name": "ItemHasTags",
+							"_tags": "armorLegs"
+						},
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfEquipStart",
+								"_action": "AddBuff",
+								"_buff": "buffBandolierLegs"
+							},
+							{
+								"_trigger": "onSelfEquipStop",
+								"_action": "RemoveBuff",
+								"_buff": "buffBandolierLegs"
+							}
+						],
+						"_tiered": "false"
+					}
+				],
+				"_name": "modArmorBandolier",
+				"_installable_tags": "armorChest,armorLegs",
+				"_modifier_tags": "ammo",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "ElementalDamageResist",
+						"_operation": "perc_add",
+						"_value": ".5",
+						"_tags": "radiation"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modRadiationReady",
+				"_installable_tags": "armor",
+				"_modifier_tags": "resistance",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorInsulatedLinerSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modTempResist"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "HypothermalResist",
+							"_operation": "base_add",
+							"_value": "5"
+						},
+						{
+							"_name": "ElementalDamageResist",
+							"_operation": "base_add",
+							"_value": "1",
+							"_tags": "heat,electrical"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modArmorInsulatedLiner",
+				"_installable_tags": "armor",
+				"_modifier_tags": "thermal",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorCoolingMeshSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modTempResist"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "HyperthermalResist",
+							"_operation": "base_add",
+							"_value": "5"
+						},
+						{
+							"_name": "ElementalDamageResist",
+							"_operation": "base_add",
+							"_value": "1",
+							"_tags": "heat,electrical"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modArmorCoolingMesh",
+				"_installable_tags": "armor",
+				"_modifier_tags": "temperature",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorImprovedFittingsSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modArmorMobility"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "Mobility",
+							"_operation": "perc_add",
+							"_value": ".02"
+						},
+						{
+							"_name": "StaminaChangeOT",
+							"_operation": "perc_add",
+							"_value": ".014",
+							"_tags": "walking"
+						},
+						{
+							"_name": "StaminaChangeOT",
+							"_operation": "perc_add",
+							"_value": ".028",
+							"_tags": "running"
+						}
+					],
+					"display_value": {
+						"_name": "dStaminaChangeOT",
+						"_value": ".028"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorImprovedFittings",
+				"_installable_tags": "armor",
+				"_modifier_tags": "movement",
+				"_blocked_tags": "noMods,padded",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorCustomizedFittingsSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modArmorMobility"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "Mobility",
+							"_operation": "perc_add",
+							"_value": ".03"
+						},
+						{
+							"_name": "StaminaChangeOT",
+							"_operation": "perc_add",
+							"_value": ".021",
+							"_tags": "walking"
+						},
+						{
+							"_name": "StaminaChangeOT",
+							"_operation": "perc_add",
+							"_value": ".0562",
+							"_tags": "running"
+						}
+					],
+					"display_value": {
+						"_name": "dStaminaChangeOT",
+						"_value": ".0562"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorCustomizedFittings",
+				"_installable_tags": "armor",
+				"_modifier_tags": "movement",
+				"_blocked_tags": "noMods,padded",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorPlatingBasicSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modArmor"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "PhysicalDamageResist",
+						"_operation": "base_add",
+						"_value": "1"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorPlatingBasic",
+				"_installable_tags": "armor",
+				"_modifier_tags": "resistance",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorPlatingReinforcedSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modArmor"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "DescriptionKey",
+						"_value": "modArmorPlatingBasicDesc"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "PhysicalDamageResist",
+						"_operation": "base_add",
+						"_value": "2"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorPlatingReinforced",
+				"_installable_tags": "armor",
+				"_modifier_tags": "resistance",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorStoragePocketSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modCarryCapacity"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mleather"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "CarryCapacity",
+						"_operation": "base_add",
+						"_value": "1"
+					},
+					"display_value": {
+						"_name": "dCarryCapacity",
+						"_value": "1"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorStoragePocket",
+				"_installable_tags": "armor",
+				"_modifier_tags": "carryweight",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorDoubleStoragePocketSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modCarryCapacity"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mleather"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "CarryCapacity",
+						"_operation": "base_add",
+						"_value": "2"
+					},
+					"display_value": {
+						"_name": "dCarryCapacity",
+						"_value": "2"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorDoubleStoragePocket",
+				"_installable_tags": "armor",
+				"_modifier_tags": "carryweight",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorTripleStoragePocketSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modCarryCapacity"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mleather"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "CarryCapacity",
+						"_operation": "base_add",
+						"_value": "3"
+					},
+					"display_value": {
+						"_name": "dCarryCapacity",
+						"_value": "3"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorTripleStoragePocket",
+				"_installable_tags": "armor",
+				"_modifier_tags": "carryweight",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorMuffledConnectorsSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modNoiseReduction"
+					},
+					{
+						"_name": "Material",
+						"_value": "Msteel"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "NoiseMultiplier",
+						"_operation": "perc_add",
+						"_value": "-.04"
+					},
+					"display_value": {
+						"_name": "dNoiseMultiplier",
+						"_value": "-.04"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorMuffledConnectors",
+				"_installable_tags": "armor",
+				"_modifier_tags": "stealth",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorAdvancedMuffledConnectorsSchematic"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modNoiseReduction"
+					},
+					{
+						"_name": "Material",
+						"_value": "Msteel"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "NoiseMultiplier",
+						"_operation": "perc_add",
+						"_value": "-.08"
+					},
+					"display_value": {
+						"_name": "dNoiseMultiplier",
+						"_value": "-.08"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorAdvancedMuffledConnectors",
+				"_installable_tags": "armor",
+				"_modifier_tags": "stealth",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorImpactBracingSchematic"
+					},
+					{
+						"_name": "Material",
+						"_value": "Msteel"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"triggered_effect": [
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddBuff",
+							"_buff": "buffImpactBracing"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemoveBuff",
+							"_buff": "buffImpactBracing"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modArmorImpactBracing",
+				"_installable_tags": "armorFeet",
+				"_modifier_tags": "falldamage",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorWaterPurifierSchematic"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "Material",
+						"_value": "Msteel"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "BuffResistance",
+						"_operation": "base_add",
+						"_value": "1",
+						"_tags": "buffDysenteryCatchDrink"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modArmorWaterPurifier",
+				"_installable_tags": "armorHead",
+				"_modifier_tags": "waterPurifier",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Dev"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "flamethrowerTrap"
+					}
+				],
+				"effect_group": [
+					{
+						"triggered_effect": [
+							{
+								"_trigger": "onSelfItemActivate",
+								"_action": "PlaySound",
+								"_target": "self",
+								"_sound": "generator_start",
+								"_play_in_head": "true"
+							},
+							{
+								"_trigger": "onSelfItemActivate",
+								"_action": "FadeOutSound",
+								"_target": "self",
+								"_sound": "generator_start",
+								"_play_in_head": "true"
+							},
+							{
+								"_trigger": "onSelfItemDeactivate",
+								"_action": "PlaySound",
+								"_target": "self",
+								"_sound": "generator_stop",
+								"_play_in_head": "true"
+							},
+							{
+								"_trigger": "onSelfItemDeactivate",
+								"_action": "FadeOutSound",
+								"_target": "self",
+								"_sound": "generator_stop",
+								"_play_in_head": "true"
+							}
+						],
+						"_tiered": "false"
+					},
+					{
+						"passive_effect": [
+							{
+								"_name": "WalkSpeed",
+								"_operation": "perc_subtract",
+								"_value": ".35"
+							},
+							{
+								"_name": "RunSpeed",
+								"_operation": "perc_subtract",
+								"_value": ".35"
+							},
+							{
+								"_name": "JumpStrength",
+								"_operation": "perc_add",
+								"_value": "3.2"
+							},
+							{
+								"_name": "StaminaLoss",
+								"_operation": "perc_subtract",
+								"_value": ".75",
+								"_tags": "jumping"
+							}
+						],
+						"triggered_effect": [
+							{
+								"requirement": {
+									"_name": "IsItemActive"
+								},
+								"_trigger": "onSelfJump",
+								"_action": "PlaySound",
+								"_sound": "m136_fire",
+								"_play_in_head": "true"
+							},
+							{
+								"_trigger": "onSelfJump",
+								"_action": "AddBuff",
+								"_buff": "buffJumpJetsAirborne"
+							}
+						],
+						"_tiered": "false"
+					}
+				],
+				"_name": "modArmorJumpJets",
+				"_installable_tags": "armorChest",
+				"_modifier_tags": "misc",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "modArmorHelmetLightSchematic,perkArtOfMiningLantern"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "Material",
+						"_value": "Msteel"
+					},
+					{
+						"_name": "LightValue",
+						"_value": ".7"
+					}
+				],
+				"effect_group": {
+					"triggered_effect": [
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddPart",
+							"_part": "HeadLight",
+							"_prefab": "Entities/Lighting/miningHelmetLightSource",
+							"_parentTransform": "Spotlight",
+							"_localPos": "0,0,0",
+							"_localRot": "90,0,0"
+						},
+						{
+							"_trigger": "onSelfEquipStart",
+							"_action": "AddPart",
+							"_part": "HeadLightCam",
+							"_prefab": "Entities/Lighting/miningHelmetLightSource",
+							"_parentTransform": "CameraNode",
+							"_localPos": "0,0,0",
+							"_localRot": "-90,0,0"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemovePart",
+							"_part": "HeadLight"
+						},
+						{
+							"_trigger": "onSelfEquipStop",
+							"_action": "RemovePart",
+							"_part": "HeadLightCam"
+						},
+						{
+							"_trigger": "onSelfItemActivate",
+							"_action": "SetPartActive",
+							"_part": "HeadLight",
+							"_active": "@!.IsFPV"
+						},
+						{
+							"_trigger": "onSelfItemActivate",
+							"_action": "SetPartActive",
+							"_part": "HeadLightCam",
+							"_active": "@.IsFPV"
+						},
+						{
+							"_trigger": "onSelfItemDeactivate",
+							"_action": "SetPartActive",
+							"_part": "HeadLight",
+							"_active": "false"
+						},
+						{
+							"_trigger": "onSelfItemDeactivate",
+							"_action": "SetPartActive",
+							"_part": "HeadLightCam",
+							"_active": "false"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modArmorHelmetLight",
+				"_installable_tags": "head",
+				"_modifier_tags": "misc,modArmorHelmetLight",
+				"_blocked_tags": "noMods,clothing",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "DisplayType",
+						"_value": "modCarryCapacity"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mleather"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods,clothing"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "CarryCapacity",
+						"_operation": "base_add",
+						"_value": "1"
+					},
+					"display_value": {
+						"_name": "dCarryCapacity",
+						"_value": "1"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modClothingStoragePocket",
+				"_installable_tags": "pocketMod",
+				"_modifier_tags": "carryweight",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "UnlockedBy",
+						"_value": "perkNeedleAndThreadPockets"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "modCarryCapacity"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mleather"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods,clothing"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "CarryCapacity",
+						"_operation": "base_add",
+						"_value": "2"
+					},
+					"display_value": {
+						"_name": "dCarryCapacity",
+						"_value": "2"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modClothingCargoStoragePocket",
+				"_installable_tags": "pocketMod",
+				"_modifier_tags": "carryweight",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CreativeMode",
+						"_value": "None"
+					},
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					}
+				],
+				"_name": "modDyeWhite",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": "0"
+			},
+			{
+				"property": [
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modDyeWhite"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "149,52,54"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "TintColor",
+								"_value": "255,0,0"
+							},
+							{
+								"_name": "CustomIconTint",
+								"_value": "149,52,54"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "180,52,54"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "149,52,54"
+							}
+						],
+						"_name": "apparelTankTop"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "149,52,54"
+							}
+						],
+						"_name": "apparelTShirtPlain"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "149,52,54"
+							}
+						],
+						"_name": "apparelTShirtZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "149,52,54,255"
+						},
+						"_name": "apparelCoatJacketLetterZU"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "149,52,54"
+							}
+						],
+						"_name": "apparelDenimShortsPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "149,52,54"
+						},
+						"_name": "apparelFlannelShirt"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "60,19,19"
+						},
+						"_name": "apparelSuitPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "60,19,19"
+						},
+						"_name": "apparelSuitJacket"
+					}
+				],
+				"_name": "modDyeRed",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": ".13"
+			},
+			{
+				"property": [
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modDyeWhite"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "128,152,120"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "TintColor",
+								"_value": "0,255,0"
+							},
+							{
+								"_name": "CustomIconTint",
+								"_value": "128,152,120"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "128,152,120"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "CustomIconTint",
+								"_value": "184,241,164"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "184,241,164"
+							}
+						],
+						"_name": "apparelTankTop"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "128,152,120"
+							}
+						],
+						"_name": "apparelTShirtPlain"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "128,152,120"
+							}
+						],
+						"_name": "apparelTShirtZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "128,152,120,255"
+						},
+						"_name": "apparelCoatJacketLetterZU"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "128,152,120"
+							}
+						],
+						"_name": "apparelDenimShortsPants"
+					},
+					{
+						"property": [
+							{
+								"_name": "CustomIconTint",
+								"_value": "200,255,200"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "200,255,200"
+							}
+						],
+						"_name": "apparelCoatPufferCoat"
+					}
+				],
+				"_name": "modDyeGreen",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": ".13"
+			},
+			{
+				"property": [
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modDyeWhite"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "47,47,47"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "TintColor",
+								"_value": "70,70,70"
+							},
+							{
+								"_name": "CustomIconTint",
+								"_value": "47,47,47"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "47,47,47"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "57,57,57"
+							}
+						],
+						"_name": "apparelTankTop"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "47,47,47"
+							}
+						],
+						"_name": "apparelTShirtPlain"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "87,87,87"
+						},
+						"_name": "apparelFlannelShirt"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "47,47,47"
+							}
+						],
+						"_name": "apparelTShirtZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "47,47,47,255"
+						},
+						"_name": "apparelCoatJacketLetterZU"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "47,47,47"
+							}
+						],
+						"_name": "apparelDenimShortsPants"
+					},
+					{
+						"property": [
+							{
+								"_name": "CustomIconTint",
+								"_value": "31,31,34"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "47,47,47"
+							}
+						],
+						"_name": "apparelCoatJacketGeneric"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "147,147,147"
+						},
+						"_name": "apparelCowboyBoots"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "210,210,210"
+						},
+						"_name": "apparelCoatLeatherDuster"
+					},
+					{
+						"property": [
+							{
+								"_name": "CustomIconTint",
+								"_value": "37,37,37"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "37,37,37"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "85,74,96"
+							}
+						],
+						"_name": "apparelSuitJacket"
+					},
+					{
+						"property": [
+							{
+								"_name": "CustomIconTint",
+								"_value": "37,37,37"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "37,37,37"
+							}
+						],
+						"_name": "apparelSuitPants"
+					},
+					{
+						"property": [
+							{
+								"_name": "CustomIconTint",
+								"_value": "57,57,57"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "27,27,27"
+							}
+						],
+						"_name": "apparelSuitDressShoes"
+					}
+				],
+				"_name": "modDyeBlack",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": ".05"
+			},
+			{
+				"property": [
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modDyeWhite"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "74,93,134"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "TintColor",
+								"_value": "100,100,180"
+							},
+							{
+								"_name": "CustomIconTint",
+								"_value": "74,93,134"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "74,93,134"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "74,93,134"
+							}
+						],
+						"_name": "apparelTankTop"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "74,93,134"
+							}
+						],
+						"_name": "apparelTShirtPlain"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "84,119,178"
+						},
+						"_name": "apparelFlannelShirt"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "58,64,77"
+						},
+						"_name": "apparelSuitPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "58,64,77"
+						},
+						"_name": "apparelSuitJacket"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "74,93,134"
+							}
+						],
+						"_name": "apparelTShirtZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "110,173,255,255"
+						},
+						"_name": "apparelCoatJacketLetterZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "112,132,160"
+						},
+						"_name": "apparelCoatLeatherDuster"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "115,135,172"
+						},
+						"_name": "apparelCoatPufferCoat"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "110,173,255"
+							}
+						],
+						"_name": "apparelDenimShortsPants"
+					}
+				],
+				"_name": "modDyeBlue",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": ".13"
+			},
+			{
+				"property": [
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modDyeWhite"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "132,105,84"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "TintColor",
+								"_value": "132,105,84"
+							},
+							{
+								"_name": "CustomIconTint",
+								"_value": "132,105,84"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "132,105,84"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "132,105,84"
+							}
+						],
+						"_name": "apparelTankTop"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "132,105,84"
+							}
+						],
+						"_name": "apparelTShirtPlain"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "132,105,84"
+							}
+						],
+						"_name": "apparelTShirtZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "132,105,84,255"
+						},
+						"_name": "apparelCoatJacketLetterZU"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "132,105,84"
+							}
+						],
+						"_name": "apparelDenimShortsPants"
+					}
+				],
+				"_name": "modDyeBrown",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": ".16"
+			},
+			{
+				"property": [
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modDyeWhite"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "240,162,251"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "TintColor",
+								"_value": "240,162,251"
+							},
+							{
+								"_name": "CustomIconTint",
+								"_value": "240,162,251"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "240,162,251"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "240,162,251"
+							}
+						],
+						"_name": "apparelTankTop"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "240,162,251"
+							}
+						],
+						"_name": "apparelTShirtPlain"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "182,170,126"
+							}
+						],
+						"_name": "apparelLongShirt"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "240,162,251"
+							}
+						],
+						"_name": "apparelTShirtZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "240,162,251,255"
+						},
+						"_name": "apparelCoatJacketLetterZU"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "240,162,251"
+							}
+						],
+						"_name": "apparelDenimShortsPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "159,101,168"
+						},
+						"_name": "apparelSuitPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "159,101,168"
+						},
+						"_name": "apparelSuitJacket"
+					}
+				],
+				"_name": "modDyePink",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": ".08"
+			},
+			{
+				"property": [
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modDyeWhite"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "113,97,129"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "TintColor",
+								"_value": "113,97,129"
+							},
+							{
+								"_name": "CustomIconTint",
+								"_value": "113,97,129"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "113,97,129"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "113,97,129"
+							}
+						],
+						"_name": "apparelTankTop"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "113,97,129"
+							}
+						],
+						"_name": "apparelTShirtPlain"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "113,97,129"
+							}
+						],
+						"_name": "apparelTShirtZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "113,97,129,255"
+						},
+						"_name": "apparelCoatJacketLetterZU"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "113,97,129"
+							}
+						],
+						"_name": "apparelDenimShortsPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "93,77,99"
+						},
+						"_name": "apparelSuitPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "93,77,99"
+						},
+						"_name": "apparelSuitJacket"
+					}
+				],
+				"_name": "modDyePurple",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": ".1"
+			},
+			{
+				"property": [
+					{
+						"_name": "DescriptionKey",
+						"_value": "modDyeGroupDesc"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "modDyeWhite"
+					},
+					{
+						"_name": "CustomIconTint",
+						"_value": "218,200,135"
+					},
+					{
+						"_name": "Material",
+						"_value": "Mpaint"
+					},
+					{
+						"_name": "Weight",
+						"_value": "20"
+					},
+					{
+						"_name": "PickupJournalEntry",
+						"_value": "augmentGunsTip"
+					}
+				],
+				"item_property_overrides": [
+					{
+						"property": [
+							{
+								"_name": "TintColor",
+								"_value": "218,200,135"
+							},
+							{
+								"_name": "CustomIconTint",
+								"_value": "218,200,135"
+							},
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "218,200,135"
+							}
+						],
+						"_name": "*"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "218,200,135"
+							}
+						],
+						"_name": "apparelTankTop"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "218,200,135"
+							}
+						],
+						"_name": "apparelTShirtPlain"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "218,200,135"
+							}
+						],
+						"_name": "apparelTShirtZU"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "218,200,135,255"
+						},
+						"_name": "apparelCoatJacketLetterZU"
+					},
+					{
+						"property": [
+							{
+								"_name": "UMA.Overlay0Tint",
+								"_value": "skin"
+							},
+							{
+								"_name": "UMA.Overlay1Tint",
+								"_value": "218,200,135"
+							}
+						],
+						"_name": "apparelDenimShortsPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "152,149,93"
+						},
+						"_name": "apparelSuitPants"
+					},
+					{
+						"property": {
+							"_name": "UMA.Overlay0Tint",
+							"_value": "152,149,93"
+						},
+						"_name": "apparelSuitJacket"
+					}
+				],
+				"_name": "modDyeYellow",
+				"_installable_tags": "clothing,armor,weapon,tool,vehicle",
+				"_modifier_tags": "dye",
+				"_type": "attachment",
+				"_cosmetic_install_chance": ".1"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "UnlockedBy",
+						"_value": "modVehicleMegaSchematic"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "armorSantaHat"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "VehicleFuelUsePer",
+							"_operation": "perc_set",
+							"_value": "0"
+						},
+						{
+							"_name": "LightIntensity",
+							"_operation": "perc_set",
+							"_value": "3"
+						},
+						{
+							"_name": "VehicleVelocityMaxPer",
+							"_operation": "perc_set",
+							"_value": "2"
+						},
+						{
+							"_name": "VehicleVelocityMaxTurboPer",
+							"_operation": "perc_set",
+							"_value": "2"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modVehicleMega",
+				"_installable_tags": "vehicle",
+				"_modifier_tags": "test",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "UnlockedBy",
+						"_value": "modVehicleFuelSaverSchematic"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "ammoGasCan"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "VehicleFuelUsePer",
+						"_operation": "perc_set",
+						"_value": ".5"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modVehicleFuelSaver",
+				"_installable_tags": "vehicle",
+				"_modifier_tags": "fuel",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "UnlockedBy",
+						"_value": "modVehicleHeadlightsSchematic"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "resourceHeadlight"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": {
+						"_name": "LightIntensity",
+						"_operation": "perc_set",
+						"_value": "1.8"
+					},
+					"_tiered": "false"
+				},
+				"_name": "modVehicleHeadlights",
+				"_installable_tags": "vehicle",
+				"_modifier_tags": "light",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "UnlockedBy",
+						"_value": "modVehicleSpeedSchematic"
+					},
+					{
+						"_name": "CustomIcon",
+						"_value": "smallEngine"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					}
+				],
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "VehicleVelocityMaxPer",
+							"_operation": "perc_set",
+							"_value": "1.25"
+						},
+						{
+							"_name": "VehicleVelocityMaxTurboPer",
+							"_operation": "perc_set",
+							"_value": "1.15"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modVehicleSpeed",
+				"_installable_tags": "vehicle",
+				"_modifier_tags": "speed",
+				"_blocked_tags": "noMods",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CustomIcon",
+						"_value": "apparelCowboyHat"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "EconomicValue",
+						"_value": "440"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "clothing"
+					}
+				],
+				"item_property_overrides": {
+					"property": [
+						{
+							"_name": "UMA.Mesh",
+							"_value": "gear_cowboyhat"
+						},
+						{
+							"_name": "UMA.Overlay0",
+							"_value": "gear_cowboyhat"
+						},
+						{
+							"_name": "UMA.ShowAltHair",
+							"_value": "true"
+						}
+					],
+					"_name": "*"
+				},
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "HypothermalResist",
+							"_operation": "base_add",
+							"_value": "2.8,5.2"
+						},
+						{
+							"_name": "HyperthermalResist",
+							"_operation": "base_add",
+							"_value": "10.5,14.3"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modArmorCowboyHat",
+				"_installable_tags": "head",
+				"_modifier_tags": "rare",
+				"_blocked_tags": "noMods,clothing",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CustomIcon",
+						"_value": "apparelSkullCap"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "EconomicValue",
+						"_value": "440"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "clothing"
+					}
+				],
+				"item_property_overrides": {
+					"property": [
+						{
+							"_name": "UMA.Mesh",
+							"_value": "gear_skullcap"
+						},
+						{
+							"_name": "UMA.Overlay0",
+							"_value": "gear_skullcap"
+						},
+						{
+							"_name": "UMA.ShowAltHair",
+							"_value": "true"
+						}
+					],
+					"_name": "*"
+				},
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "HypothermalResist",
+							"_operation": "base_add",
+							"_value": "10.5,13.2"
+						},
+						{
+							"_name": "HyperthermalResist",
+							"_operation": "base_add",
+							"_value": "1.5,2.5"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modArmorSkullCap",
+				"_installable_tags": "head",
+				"_modifier_tags": "rare",
+				"_blocked_tags": "noMods,clothing",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CustomIcon",
+						"_value": "apparelPressboyCap"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "EconomicValue",
+						"_value": "440"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "clothing"
+					}
+				],
+				"item_property_overrides": {
+					"property": [
+						{
+							"_name": "UMA.Mesh",
+							"_value": "gear_pressboy_cap"
+						},
+						{
+							"_name": "UMA.Overlay0",
+							"_value": "gear_ballcap"
+						},
+						{
+							"_name": "UMA.ShowAltHair",
+							"_value": "true"
+						}
+					],
+					"_name": "*"
+				},
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "HypothermalResist",
+							"_operation": "base_add",
+							"_value": "1.8,4.2"
+						},
+						{
+							"_name": "HyperthermalResist",
+							"_operation": "base_add",
+							"_value": "7.5,10.5"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modArmorPressboyCap",
+				"_installable_tags": "head",
+				"_modifier_tags": "rare",
+				"_blocked_tags": "noMods,clothing",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CustomIcon",
+						"_value": "apparelBallCap"
+					},
+					{
+						"_name": "Stacknumber",
+						"_value": "1"
+					},
+					{
+						"_name": "Group",
+						"_value": "Mods"
+					},
+					{
+						"_name": "DropMeshfile",
+						"_value": "#Other/Items?Misc/sack_droppedPrefab.prefab"
+					},
+					{
+						"_name": "EconomicValue",
+						"_value": "440"
+					},
+					{
+						"_name": "DisplayType",
+						"_value": "clothing"
+					}
+				],
+				"item_property_overrides": {
+					"property": [
+						{
+							"_name": "UMA.Mesh",
+							"_value": "gear_ballcap"
+						},
+						{
+							"_name": "UMA.Overlay0",
+							"_value": "gear_ballcap"
+						},
+						{
+							"_name": "UMA.ShowAltHair",
+							"_value": "true"
+						}
+					],
+					"_name": "*"
+				},
+				"effect_group": {
+					"passive_effect": [
+						{
+							"_name": "HypothermalResist",
+							"_operation": "base_add",
+							"_value": "1.8,4.2"
+						},
+						{
+							"_name": "HyperthermalResist",
+							"_operation": "base_add",
+							"_value": "7.5,10.5"
+						}
+					],
+					"_tiered": "false"
+				},
+				"_name": "modArmorBallCap",
+				"_installable_tags": "head",
+				"_modifier_tags": "rare",
+				"_blocked_tags": "noMods,clothing",
+				"_type": "attachment"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "DescriptionKey",
+						"_value": "questSuppliesGroupDesc"
+					}
+				],
+				"_name": "questWhiteRiverSupplies"
+			},
+			{
+				"property": [
+					{
+						"_name": "CreativeMode",
+						"_value": "Test"
+					},
+					{
+						"_name": "DescriptionKey",
+						"_value": "questSuppliesGroupDesc"
+					}
+				],
+				"_name": "questCassadoreSupplies"
+			}
+		]
+	}
+}

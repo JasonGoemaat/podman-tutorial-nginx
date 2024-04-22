@@ -81,3 +81,7 @@ Run with this, don't have to specify name I don't think, but 'my' from 'localhos
 
 Awesome, that worked and I can go to http://localhost:8100 and see my page.
 
+## angular-7dtd
+
+From: https://dev.to/rodrigokamada/creating-and-running-an-angular-application-in-a-docker-container-40mk
+
